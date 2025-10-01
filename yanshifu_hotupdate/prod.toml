@@ -1,0 +1,13 @@
+[oss_cocos_zhengshifu]
+ip_hotupdate_cocos = ""
+bucket_hotupdate_cocos = ""
+endpoint_cocos = ""
+accessKey_hotupdate_cocos = ""
+secretKey_hotupdate_cocos = ""
+
+[oss_cocos_ceshifu]
+ip_hotupdate_cocos = ""
+bucket_hotupdate_cocos = ""
+endpoint_cocos = ""
+accessKey_hotupdate_cocos = ""
+secretKey_hotupdate_cocos = ""

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tuxing",
+    "texture": "73121f54-af41-448a-b93b-9adc0913886e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      642,
+      77
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      642,
+      77
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

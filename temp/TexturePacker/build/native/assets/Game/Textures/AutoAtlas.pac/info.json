@@ -1,0 +1,1414 @@
+{
+  "projectPath": "/Users/macmac/project/game-center/dongwulianyilian",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "515e0e2c-6741-4722-9ec1-8664699d532a": {
+      "assetMtime": 1614129423590,
+      "metaMtime": 1614215504100
+    },
+    "000bc4d7-fb63-41cc-a161-4fbb7f94b4b3": {
+      "assetMtime": 1614129423591,
+      "metaMtime": 1614215504287
+    },
+    "fb998ad2-7568-4ae4-b63e-6256ab14db16": {
+      "assetMtime": 1614129423591,
+      "metaMtime": 1614215504287
+    },
+    "021c4c09-31a9-470e-a969-15104eb79ecf": {
+      "assetMtime": 1614129423601,
+      "metaMtime": 1614215504117
+    },
+    "1c47cb46-c023-4f69-a92a-733d2931bbd5": {
+      "assetMtime": 1614129423601,
+      "metaMtime": 1614215504117
+    },
+    "025806cb-90c3-4998-b792-0adeacfb74f2": {
+      "assetMtime": 1614129423593,
+      "metaMtime": 1614215504314
+    },
+    "3d9c6e7d-8ee7-49ba-9933-6f2f6c78ae8a": {
+      "assetMtime": 1614129423593,
+      "metaMtime": 1614215504314
+    },
+    "0691a7ba-0b7c-46d3-81f3-0d6d90fad1da": {
+      "assetMtime": 1614129423604,
+      "metaMtime": 1614215504137
+    },
+    "bae82e92-6bdb-497b-8444-f360575319eb": {
+      "assetMtime": 1614129423604,
+      "metaMtime": 1614215504137
+    },
+    "1a60339a-8bf3-42d6-b7d5-958d512c3b5e": {
+      "assetMtime": 1614129423609,
+      "metaMtime": 1614215504220
+    },
+    "636628b3-5cfe-4ba8-89f2-329d262a7899": {
+      "assetMtime": 1614129423609,
+      "metaMtime": 1614215504220
+    },
+    "2ef64013-473d-47bb-ac05-4a0e93f9f4c6": {
+      "assetMtime": 1614129423589,
+      "metaMtime": 1614215504081
+    },
+    "fb0ecb6e-540d-4db9-9da2-4e569f216108": {
+      "assetMtime": 1614129423589,
+      "metaMtime": 1614215504081
+    },
+    "334233ac-7edd-4ea7-8b2c-13e3d88302e1": {
+      "assetMtime": 1614129423590,
+      "metaMtime": 1614215504101
+    },
+    "51d874ac-c74d-4ba9-96d1-94e4012729eb": {
+      "assetMtime": 1614129423590,
+      "metaMtime": 1614215504101
+    },
+    "3809807c-df1e-4784-970b-d880b5258733": {
+      "assetMtime": 1614129423607,
+      "metaMtime": 1614215504202
+    },
+    "ad04dd24-b2a5-4ff1-9531-739149e52377": {
+      "assetMtime": 1614129423607,
+      "metaMtime": 1614215504202
+    },
+    "3b815d11-af38-4d7e-b809-4f2f4f0805d0": {
+      "assetMtime": 1614129423590,
+      "metaMtime": 1614215504099
+    },
+    "bb28c773-363b-454d-a92f-4c40e7d9de02": {
+      "assetMtime": 1614129423590,
+      "metaMtime": 1614215504099
+    },
+    "40036d1b-83b0-43a9-8bb0-498a49eb113a": {
+      "assetMtime": 1614129423589,
+      "metaMtime": 1614215504090
+    },
+    "a61eaecc-b615-4349-8b3d-d28d56bbaf38": {
+      "assetMtime": 1614129423589,
+      "metaMtime": 1614215504090
+    },
+    "4f995e8f-ecd7-40a3-bcdd-367a6f1d492c": {
+      "assetMtime": 1614129423596,
+      "metaMtime": 1614215504349
+    },
+    "c3d3d508-c9f1-40c5-8086-e3c4fae25be7": {
+      "assetMtime": 1614129423596,
+      "metaMtime": 1614215504349
+    },
+    "4fb1168c-d659-4302-a95b-15f919903b73": {
+      "assetMtime": 1614129423591,
+      "metaMtime": 1614215504289
+    },
+    "b13edee4-462c-49f3-8e0c-7814525dba86": {
+      "assetMtime": 1614129423591,
+      "metaMtime": 1614215504289
+    },
+    "5ec900fe-452b-431c-ab8e-9ba41aed90cc": {
+      "assetMtime": 1614129423604,
+      "metaMtime": 1614215504156
+    },
+    "3c64dd14-e9d4-444c-bb51-122250d515ad": {
+      "assetMtime": 1614129423604,
+      "metaMtime": 1614215504156
+    },
+    "741c9338-49dd-4b19-88da-61bb1fd0e179": {
+      "assetMtime": 1614129423595,
+      "metaMtime": 1614215504342
+    },
+    "393fac0d-7bea-499d-a98d-716892787b8e": {
+      "assetMtime": 1614129423595,
+      "metaMtime": 1614215504342
+    },
+    "78b82529-1884-429c-8eb0-872a3094eff7": {
+      "assetMtime": 1614129423599,
+      "metaMtime": 1614215504412
+    },
+    "95663f73-2e81-47d2-95e8-c5c45faa9914": {
+      "assetMtime": 1614129423599,
+      "metaMtime": 1614215504412
+    },
+    "7b30992e-6838-4ea6-a6c1-da5f8ab285d2": {
+      "assetMtime": 1614129423607,
+      "metaMtime": 1614215504199
+    },
+    "aa09c654-3cd0-4c57-a314-c4484826edcd": {
+      "assetMtime": 1614129423607,
+      "metaMtime": 1614215504199
+    },
+    "8091ab37-0a4f-4579-8495-282a7029667f": {
+      "assetMtime": 1614129423591,
+      "metaMtime": 1614215504281
+    },
+    "1eeebfe4-8318-48b8-96e8-30e654466680": {
+      "assetMtime": 1614129423591,
+      "metaMtime": 1614215504281
+    },
+    "80ff5e33-19e2-4f90-89b8-890ce494c6c8": {
+      "assetMtime": 1614129423603,
+      "metaMtime": 1614215504127
+    },
+    "8701b4ae-3af7-401c-b60d-8c3aaf123f4d": {
+      "assetMtime": 1614129423603,
+      "metaMtime": 1614215504127
+    },
+    "83f8300a-625b-4671-8bda-22efa5f6d90a": {
+      "assetMtime": 1614129423610,
+      "metaMtime": 1614215504237
+    },
+    "6d74f6d7-5426-4691-abed-57197429590d": {
+      "assetMtime": 1614129423610,
+      "metaMtime": 1614215504237
+    },
+    "85c8c09d-1605-45ad-8890-a23aa6912681": {
+      "assetMtime": 1614129423596,
+      "metaMtime": 1614215504358
+    },
+    "3b9631dd-8b96-4ed2-aa9a-79bcb39c370f": {
+      "assetMtime": 1614129423596,
+      "metaMtime": 1614215504358
+    },
+    "8a628d17-06b6-4d52-b30d-8d95b6d5d4c7": {
+      "assetMtime": 1614129423589,
+      "metaMtime": 1614215504091
+    },
+    "1c834f6e-0f36-4bbc-8745-7cb96fa1e237": {
+      "assetMtime": 1614129423589,
+      "metaMtime": 1614215504091
+    },
+    "9205ca71-8d31-4fe5-acd8-971670cebe65": {
+      "assetMtime": 1614129423592,
+      "metaMtime": 1614215504296
+    },
+    "d2362d31-5d0c-4296-828d-fc5f852510f4": {
+      "assetMtime": 1614129423592,
+      "metaMtime": 1614215504296
+    },
+    "969b8b9e-cf94-4462-9199-e9c2bb5b526e": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504332
+    },
+    "47d08bb1-269c-4346-9dd3-547a36862be5": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504332
+    },
+    "98b47eb8-993d-4498-a598-b7c5fbb17805": {
+      "assetMtime": 1614129423592,
+      "metaMtime": 1614215504305
+    },
+    "9dfdd0b7-5595-496d-b41c-bfd944ec9688": {
+      "assetMtime": 1614129423592,
+      "metaMtime": 1614215504305
+    },
+    "99bd4858-d6c6-41b7-952e-a0105c7fb708": {
+      "assetMtime": 1614129423598,
+      "metaMtime": 1614215504377
+    },
+    "b33a3fb0-9d9d-42e8-8a26-44dff9381706": {
+      "assetMtime": 1614129423598,
+      "metaMtime": 1614215504377
+    },
+    "a1fccada-754a-49f6-a5de-22fed89e7fc8": {
+      "assetMtime": 1614129423595,
+      "metaMtime": 1614215504341
+    },
+    "d14d5399-100b-4907-b70e-d0718c47ca84": {
+      "assetMtime": 1614129423595,
+      "metaMtime": 1614215504341
+    },
+    "ae77d76a-6099-45ca-9e05-7ed0abfb73f9": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504323
+    },
+    "64223b75-6df6-4940-9067-6a74e71187ac": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504323
+    },
+    "b3df0109-7274-4436-86c5-3f60eb036db3": {
+      "assetMtime": 1614129423598,
+      "metaMtime": 1614215504376
+    },
+    "9b868fe8-d350-45ce-8d07-d8c6e50d2642": {
+      "assetMtime": 1614129423598,
+      "metaMtime": 1614215504376
+    },
+    "b8d2f3ac-9131-4ea8-85be-a1768bdfa5d0": {
+      "assetMtime": 1614129423593,
+      "metaMtime": 1614215504315
+    },
+    "bc09ad54-1b60-4ba8-8353-a34c7f49a415": {
+      "assetMtime": 1614129423593,
+      "metaMtime": 1614215504315
+    },
+    "c033245a-5838-4a66-a5be-5019022e0d3b": {
+      "assetMtime": 1614129423593,
+      "metaMtime": 1614215504306
+    },
+    "759a5a44-b550-444b-a9ba-74315f37c2a3": {
+      "assetMtime": 1614129423593,
+      "metaMtime": 1614215504306
+    },
+    "c69e753a-2b45-4383-8b19-75834efd213d": {
+      "assetMtime": 1614129423588,
+      "metaMtime": 1614215504070
+    },
+    "af61c1c3-3af5-42f3-9131-c6f60ce003fb": {
+      "assetMtime": 1614129423588,
+      "metaMtime": 1614215504070
+    },
+    "ca0cfa2a-d09c-42c6-b17b-13e0bf16082d": {
+      "assetMtime": 1614129423599,
+      "metaMtime": 1614215504386
+    },
+    "141c014a-299e-4c72-9db8-51b3b9cf9a46": {
+      "assetMtime": 1614129423599,
+      "metaMtime": 1614215504386
+    },
+    "cad1b859-a14c-4253-858a-8e532f488b5f": {
+      "assetMtime": 1614129423597,
+      "metaMtime": 1614215504367
+    },
+    "ca2ba93d-4525-4522-a731-5884c78598c6": {
+      "assetMtime": 1614129423597,
+      "metaMtime": 1614215504367
+    },
+    "cdebcb66-f01b-4455-858a-0d950cb3b0f2": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504324
+    },
+    "ee9cafcf-f499-4894-a107-9f2695d938b3": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504324
+    },
+    "d38bfee5-8f7c-4cb9-bdab-aae45c7c2be9": {
+      "assetMtime": 1614129423605,
+      "metaMtime": 1614215504165
+    },
+    "be7de5bf-3980-41a6-83c3-6a506606c862": {
+      "assetMtime": 1614129423605,
+      "metaMtime": 1614215504165
+    },
+    "d6fe8cef-3eaf-4a19-900d-a73e36ebfdb6": {
+      "assetMtime": 1614129423592,
+      "metaMtime": 1614215504297
+    },
+    "801bfe87-bd66-45db-b717-b51a25f53067": {
+      "assetMtime": 1614129423592,
+      "metaMtime": 1614215504297
+    },
+    "deb2ce70-3684-45d3-a4af-10518437731a": {
+      "assetMtime": 1614129423588,
+      "metaMtime": 1614215504082
+    },
+    "8bee8308-b2e5-40b0-befa-21b9fa036797": {
+      "assetMtime": 1614129423588,
+      "metaMtime": 1614215504082
+    },
+    "e4a89983-e635-45f3-ad4d-6cc315b0fede": {
+      "assetMtime": 1614129423597,
+      "metaMtime": 1614215504368
+    },
+    "57dccb1e-b4a2-47da-a48c-aa2914c28fd7": {
+      "assetMtime": 1614129423597,
+      "metaMtime": 1614215504368
+    },
+    "e78d6617-df77-43fd-bb38-749572ae48d5": {
+      "assetMtime": 1614129423595,
+      "metaMtime": 1614215504350
+    },
+    "818f9b49-cd11-42af-acd9-1ef3ff3debc5": {
+      "assetMtime": 1614129423595,
+      "metaMtime": 1614215504350
+    },
+    "e84f93f1-2d6d-4678-a3fa-1256b2ff0e4d": {
+      "assetMtime": 1614129423596,
+      "metaMtime": 1614215504359
+    },
+    "ebeaf69e-6a93-48e2-8f1f-1b05d0319aef": {
+      "assetMtime": 1614129423596,
+      "metaMtime": 1614215504359
+    },
+    "e92e3a6b-9f57-452a-8ff2-25353a4984f1": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504333
+    },
+    "ca525ae9-3c59-4d3f-b021-b30853f18bc7": {
+      "assetMtime": 1614129423594,
+      "metaMtime": 1614215504333
+    },
+    "ecf5edec-45e5-4700-ad00-4e5cac76a458": {
+      "assetMtime": 1614129423608,
+      "metaMtime": 1614215504209
+    },
+    "64f85ae5-a66b-4331-bcf6-f44657a89d1e": {
+      "assetMtime": 1614129423608,
+      "metaMtime": 1614215504209
+    },
+    "f484b877-7628-4aee-af8c-6fb2fc1a37c7": {
+      "assetMtime": 1614129423598,
+      "metaMtime": 1614215504385
+    },
+    "a656f445-23e6-4b80-8faa-d3e7dbdad458": {
+      "assetMtime": 1614129423598,
+      "metaMtime": 1614215504385
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 2048,
+    "height": 1024,
+    "ver": "1.2.1",
+    "uuid": "515e0e2c-6741-4722-9ec1-8664699d532a",
+    "maxWidth": 2048,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "logo",
+            "uuid": "1a60339a-8bf3-42d6-b7d5-958d512c3b5e",
+            "textureUuid": "636628b3-5cfe-4ba8-89f2-329d262a7899",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950683_image_4.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 462,
+              "height": 176,
+              "rotatedWidth": 462,
+              "rotatedHeight": 176
+            },
+            "rawWidth": 462,
+            "rawHeight": 176,
+            "width": 468,
+            "height": 182,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/63/636628b3-5cfe-4ba8-89f2-329d262a7899.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 468,
+            "rotatedHeight": 182
+          },
+          {
+            "name": "glow_00114_alpha",
+            "uuid": "3809807c-df1e-4784-970b-d880b5258733",
+            "textureUuid": "ad04dd24-b2a5-4ff1-9531-739149e52377",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950684_image_7.png",
+            "trim": {
+              "x": 471,
+              "y": 3,
+              "width": 256,
+              "height": 256,
+              "rotatedWidth": 256,
+              "rotatedHeight": 256
+            },
+            "rawWidth": 256,
+            "rawHeight": 256,
+            "width": 262,
+            "height": 262,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/ad/ad04dd24-b2a5-4ff1-9531-739149e52377.png",
+            "x": 468,
+            "y": 0,
+            "rotatedWidth": 262,
+            "rotatedHeight": 262
+          },
+          {
+            "name": "c_w100",
+            "uuid": "5ec900fe-452b-431c-ab8e-9ba41aed90cc",
+            "textureUuid": "3c64dd14-e9d4-444c-bb51-122250d515ad",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950708_image_12.png",
+            "trim": {
+              "x": 3,
+              "y": 185,
+              "width": 128,
+              "height": 128,
+              "rotatedWidth": 128,
+              "rotatedHeight": 128
+            },
+            "rawWidth": 128,
+            "rawHeight": 128,
+            "width": 134,
+            "height": 134,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/3c/3c64dd14-e9d4-444c-bb51-122250d515ad.png",
+            "x": 0,
+            "y": 182,
+            "rotatedWidth": 134,
+            "rotatedHeight": 134
+          },
+          {
+            "name": "choujiang",
+            "uuid": "d38bfee5-8f7c-4cb9-bdab-aae45c7c2be9",
+            "textureUuid": "be7de5bf-3980-41a6-83c3-6a506606c862",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950773_image_34.png",
+            "trim": {
+              "x": 137,
+              "y": 185,
+              "width": 93,
+              "height": 109,
+              "rotatedWidth": 109,
+              "rotatedHeight": 93
+            },
+            "rawWidth": 93,
+            "rawHeight": 109,
+            "width": 99,
+            "height": 115,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/be/be7de5bf-3980-41a6-83c3-6a506606c862.png",
+            "x": 134,
+            "y": 182,
+            "rotated": true,
+            "rotatedWidth": 115,
+            "rotatedHeight": 99
+          },
+          {
+            "name": "btn_sound-sheet0",
+            "uuid": "80ff5e33-19e2-4f90-89b8-890ce494c6c8",
+            "textureUuid": "8701b4ae-3af7-401c-b60d-8c3aaf123f4d",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950721_image_17.png",
+            "trim": {
+              "x": 252,
+              "y": 185,
+              "width": 88,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 88
+            },
+            "rawWidth": 88,
+            "rawHeight": 108,
+            "width": 94,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/87/8701b4ae-3af7-401c-b60d-8c3aaf123f4d.png",
+            "x": 249,
+            "y": 182,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 94
+          },
+          {
+            "name": "Tile_04",
+            "uuid": "025806cb-90c3-4998-b792-0adeacfb74f2",
+            "textureUuid": "3d9c6e7d-8ee7-49ba-9933-6f2f6c78ae8a",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950675_image_2.png",
+            "trim": {
+              "x": 366,
+              "y": 185,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 84,
+              "rotatedHeight": 108
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/3d/3d9c6e7d-8ee7-49ba-9933-6f2f6c78ae8a.png",
+            "x": 363,
+            "y": 182,
+            "rotatedWidth": 90,
+            "rotatedHeight": 114
+          },
+          {
+            "name": "Line_46",
+            "uuid": "4fb1168c-d659-4302-a95b-15f919903b73",
+            "textureUuid": "b13edee4-462c-49f3-8e0c-7814525dba86",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950708_image_11.png",
+            "trim": {
+              "x": 456,
+              "y": 185,
+              "width": 92,
+              "height": 9,
+              "rotatedWidth": 9,
+              "rotatedHeight": 92
+            },
+            "rawWidth": 94,
+            "rawHeight": 9,
+            "width": 98,
+            "height": 15,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/b1/b13edee4-462c-49f3-8e0c-7814525dba86.png",
+            "x": 453,
+            "y": 182,
+            "rotated": true,
+            "rotatedWidth": 15,
+            "rotatedHeight": 98
+          },
+          {
+            "name": "Tile_13",
+            "uuid": "4f995e8f-ecd7-40a3-bcdd-367a6f1d492c",
+            "textureUuid": "c3d3d508-c9f1-40c5-8086-e3c4fae25be7",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950702_image_10.png",
+            "trim": {
+              "x": 252,
+              "y": 279,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/c3/c3d3d508-c9f1-40c5-8086-e3c4fae25be7.png",
+            "x": 249,
+            "y": 276,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_11",
+            "uuid": "741c9338-49dd-4b19-88da-61bb1fd0e179",
+            "textureUuid": "393fac0d-7bea-499d-a98d-716892787b8e",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950713_image_13.png",
+            "trim": {
+              "x": 137,
+              "y": 284,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/39/393fac0d-7bea-499d-a98d-716892787b8e.png",
+            "x": 134,
+            "y": 281,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_22",
+            "uuid": "78b82529-1884-429c-8eb0-872a3094eff7",
+            "textureUuid": "95663f73-2e81-47d2-95e8-c5c45faa9914",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950716_image_14.png",
+            "trim": {
+              "x": 3,
+              "y": 319,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/95/95663f73-2e81-47d2-95e8-c5c45faa9914.png",
+            "x": 0,
+            "y": 316,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_14",
+            "uuid": "85c8c09d-1605-45ad-8890-a23aa6912681",
+            "textureUuid": "3b9631dd-8b96-4ed2-aa9a-79bcb39c370f",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950734_image_19.png",
+            "trim": {
+              "x": 471,
+              "y": 265,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/3b/3b9631dd-8b96-4ed2-aa9a-79bcb39c370f.png",
+            "x": 468,
+            "y": 262,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_00",
+            "uuid": "9205ca71-8d31-4fe5-acd8-971670cebe65",
+            "textureUuid": "d2362d31-5d0c-4296-828d-fc5f852510f4",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950735_image_21.png",
+            "trim": {
+              "x": 366,
+              "y": 299,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 84,
+              "rotatedHeight": 108
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/d2/d2362d31-5d0c-4296-828d-fc5f852510f4.png",
+            "x": 363,
+            "y": 296,
+            "rotatedWidth": 90,
+            "rotatedHeight": 114
+          },
+          {
+            "name": "Tile_08",
+            "uuid": "969b8b9e-cf94-4462-9199-e9c2bb5b526e",
+            "textureUuid": "47d08bb1-269c-4346-9dd3-547a36862be5",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950742_image_22.png",
+            "trim": {
+              "x": 251,
+              "y": 369,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/47/47d08bb1-269c-4346-9dd3-547a36862be5.png",
+            "x": 248,
+            "y": 366,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_02",
+            "uuid": "98b47eb8-993d-4498-a598-b7c5fbb17805",
+            "textureUuid": "9dfdd0b7-5595-496d-b41c-bfd944ec9688",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950745_image_23.png",
+            "trim": {
+              "x": 117,
+              "y": 374,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/9d/9dfdd0b7-5595-496d-b41c-bfd944ec9688.png",
+            "x": 114,
+            "y": 371,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_19",
+            "uuid": "99bd4858-d6c6-41b7-952e-a0105c7fb708",
+            "textureUuid": "b33a3fb0-9d9d-42e8-8a26-44dff9381706",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950747_image_24.png",
+            "trim": {
+              "x": 3,
+              "y": 409,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/b3/b33a3fb0-9d9d-42e8-8a26-44dff9381706.png",
+            "x": 0,
+            "y": 406,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_10",
+            "uuid": "a1fccada-754a-49f6-a5de-22fed89e7fc8",
+            "textureUuid": "d14d5399-100b-4907-b70e-d0718c47ca84",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950749_image_25.png",
+            "trim": {
+              "x": 585,
+              "y": 265,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/d1/d14d5399-100b-4907-b70e-d0718c47ca84.png",
+            "x": 582,
+            "y": 262,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "reddot2",
+            "uuid": "83f8300a-625b-4671-8bda-22efa5f6d90a",
+            "textureUuid": "6d74f6d7-5426-4691-abed-57197429590d",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950721_image_18.png",
+            "trim": {
+              "x": 699,
+              "y": 265,
+              "width": 25,
+              "height": 24,
+              "rotatedWidth": 25,
+              "rotatedHeight": 24
+            },
+            "rawWidth": 36,
+            "rawHeight": 36,
+            "width": 31,
+            "height": 30,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/6d/6d74f6d7-5426-4691-abed-57197429590d.png",
+            "x": 696,
+            "y": 262,
+            "rotatedWidth": 31,
+            "rotatedHeight": 30
+          },
+          {
+            "name": "Tile_07",
+            "uuid": "ae77d76a-6099-45ca-9e05-7ed0abfb73f9",
+            "textureUuid": "64223b75-6df6-4940-9067-6a74e71187ac",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950749_image_26.png",
+            "trim": {
+              "x": 456,
+              "y": 355,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/64/64223b75-6df6-4940-9067-6a74e71187ac.png",
+            "x": 453,
+            "y": 352,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_18",
+            "uuid": "b3df0109-7274-4436-86c5-3f60eb036db3",
+            "textureUuid": "9b868fe8-d350-45ce-8d07-d8c6e50d2642",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950756_image_27.png",
+            "trim": {
+              "x": 365,
+              "y": 413,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 84,
+              "rotatedHeight": 108
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/9b/9b868fe8-d350-45ce-8d07-d8c6e50d2642.png",
+            "x": 362,
+            "y": 410,
+            "rotatedWidth": 90,
+            "rotatedHeight": 114
+          },
+          {
+            "name": "Tile_05",
+            "uuid": "b8d2f3ac-9131-4ea8-85be-a1768bdfa5d0",
+            "textureUuid": "bc09ad54-1b60-4ba8-8353-a34c7f49a415",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950756_image_28.png",
+            "trim": {
+              "x": 231,
+              "y": 459,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/bc/bc09ad54-1b60-4ba8-8353-a34c7f49a415.png",
+            "x": 228,
+            "y": 456,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_03",
+            "uuid": "c033245a-5838-4a66-a5be-5019022e0d3b",
+            "textureUuid": "759a5a44-b550-444b-a9ba-74315f37c2a3",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950758_image_29.png",
+            "trim": {
+              "x": 117,
+              "y": 464,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/75/759a5a44-b550-444b-a9ba-74315f37c2a3.png",
+            "x": 114,
+            "y": 461,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_21",
+            "uuid": "ca0cfa2a-d09c-42c6-b17b-13e0bf16082d",
+            "textureUuid": "141c014a-299e-4c72-9db8-51b3b9cf9a46",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950765_image_31.png",
+            "trim": {
+              "x": 3,
+              "y": 499,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/14/141c014a-299e-4c72-9db8-51b3b9cf9a46.png",
+            "x": 0,
+            "y": 496,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_17",
+            "uuid": "cad1b859-a14c-4253-858a-8e532f488b5f",
+            "textureUuid": "ca2ba93d-4525-4522-a731-5884c78598c6",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950765_image_32.png",
+            "trim": {
+              "x": 570,
+              "y": 355,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/ca/ca2ba93d-4525-4522-a731-5884c78598c6.png",
+            "x": 567,
+            "y": 352,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_06",
+            "uuid": "cdebcb66-f01b-4455-858a-0d950cb3b0f2",
+            "textureUuid": "ee9cafcf-f499-4894-a107-9f2695d938b3",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950767_image_33.png",
+            "trim": {
+              "x": 345,
+              "y": 527,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 84,
+              "rotatedHeight": 108
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/ee/ee9cafcf-f499-4894-a107-9f2695d938b3.png",
+            "x": 342,
+            "y": 524,
+            "rotatedWidth": 90,
+            "rotatedHeight": 114
+          },
+          {
+            "name": "Tile_01",
+            "uuid": "d6fe8cef-3eaf-4a19-900d-a73e36ebfdb6",
+            "textureUuid": "801bfe87-bd66-45db-b717-b51a25f53067",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950774_image_35.png",
+            "trim": {
+              "x": 231,
+              "y": 549,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/80/801bfe87-bd66-45db-b717-b51a25f53067.png",
+            "x": 228,
+            "y": 546,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_16",
+            "uuid": "e4a89983-e635-45f3-ad4d-6cc315b0fede",
+            "textureUuid": "57dccb1e-b4a2-47da-a48c-aa2914c28fd7",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950781_image_37.png",
+            "trim": {
+              "x": 117,
+              "y": 554,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/57/57dccb1e-b4a2-47da-a48c-aa2914c28fd7.png",
+            "x": 114,
+            "y": 551,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_12",
+            "uuid": "e78d6617-df77-43fd-bb38-749572ae48d5",
+            "textureUuid": "818f9b49-cd11-42af-acd9-1ef3ff3debc5",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950782_image_38.png",
+            "trim": {
+              "x": 231,
+              "y": 639,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/81/818f9b49-cd11-42af-acd9-1ef3ff3debc5.png",
+            "x": 228,
+            "y": 636,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_15",
+            "uuid": "e84f93f1-2d6d-4678-a3fa-1256b2ff0e4d",
+            "textureUuid": "ebeaf69e-6a93-48e2-8f1f-1b05d0319aef",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950785_image_39.png",
+            "trim": {
+              "x": 3,
+              "y": 589,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/eb/ebeaf69e-6a93-48e2-8f1f-1b05d0319aef.png",
+            "x": 0,
+            "y": 586,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "Tile_09",
+            "uuid": "e92e3a6b-9f57-452a-8ff2-25353a4984f1",
+            "textureUuid": "ca525ae9-3c59-4d3f-b021-b30853f18bc7",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950789_image_40.png",
+            "trim": {
+              "x": 117,
+              "y": 644,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/ca/ca525ae9-3c59-4d3f-b021-b30853f18bc7.png",
+            "x": 114,
+            "y": 641,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "android_leaderboards",
+            "uuid": "021c4c09-31a9-470e-a969-15104eb79ecf",
+            "textureUuid": "1c47cb46-c023-4f69-a92a-733d2931bbd5",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950675_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 679,
+              "width": 57,
+              "height": 47,
+              "rotatedWidth": 57,
+              "rotatedHeight": 47
+            },
+            "rawWidth": 57,
+            "rawHeight": 47,
+            "width": 63,
+            "height": 53,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/1c/1c47cb46-c023-4f69-a92a-733d2931bbd5.png",
+            "x": 0,
+            "y": 676,
+            "rotatedWidth": 63,
+            "rotatedHeight": 53
+          },
+          {
+            "name": "Tile_20",
+            "uuid": "f484b877-7628-4aee-af8c-6fb2fc1a37c7",
+            "textureUuid": "a656f445-23e6-4b80-8faa-d3e7dbdad458",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950790_image_42.png",
+            "trim": {
+              "x": 345,
+              "y": 641,
+              "width": 84,
+              "height": 108,
+              "rotatedWidth": 108,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 108,
+            "width": 90,
+            "height": 114,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/a6/a656f445-23e6-4b80-8faa-d3e7dbdad458.png",
+            "x": 342,
+            "y": 638,
+            "rotated": true,
+            "rotatedWidth": 114,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "btn_sound-sheet1",
+            "uuid": "0691a7ba-0b7c-46d3-81f3-0d6d90fad1da",
+            "textureUuid": "bae82e92-6bdb-497b-8444-f360575319eb",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950678_image_3.png",
+            "trim": {
+              "x": 435,
+              "y": 527,
+              "width": 90,
+              "height": 90,
+              "rotatedWidth": 90,
+              "rotatedHeight": 90
+            },
+            "rawWidth": 90,
+            "rawHeight": 90,
+            "width": 96,
+            "height": 96,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/ba/bae82e92-6bdb-497b-8444-f360575319eb.png",
+            "x": 432,
+            "y": 524,
+            "rotatedWidth": 96,
+            "rotatedHeight": 96
+          },
+          {
+            "name": "help",
+            "uuid": "7b30992e-6838-4ea6-a6c1-da5f8ab285d2",
+            "textureUuid": "aa09c654-3cd0-4c57-a314-c4484826edcd",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950721_image_15.png",
+            "trim": {
+              "x": 455,
+              "y": 445,
+              "width": 87,
+              "height": 69,
+              "rotatedWidth": 87,
+              "rotatedHeight": 69
+            },
+            "rawWidth": 87,
+            "rawHeight": 69,
+            "width": 93,
+            "height": 75,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/aa/aa09c654-3cd0-4c57-a314-c4484826edcd.png",
+            "x": 452,
+            "y": 442,
+            "rotatedWidth": 93,
+            "rotatedHeight": 75
+          },
+          {
+            "name": "Animals_60",
+            "uuid": "3b815d11-af38-4d7e-b809-4f2f4f0805d0",
+            "textureUuid": "bb28c773-363b-454d-a92f-4c40e7d9de02",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950691_image_8.png",
+            "trim": {
+              "x": 459,
+              "y": 623,
+              "width": 70,
+              "height": 69,
+              "rotatedWidth": 69,
+              "rotatedHeight": 70
+            },
+            "rawWidth": 70,
+            "rawHeight": 69,
+            "width": 76,
+            "height": 75,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/bb/bb28c773-363b-454d-a92f-4c40e7d9de02.png",
+            "x": 456,
+            "y": 620,
+            "rotated": true,
+            "rotatedWidth": 75,
+            "rotatedHeight": 76
+          },
+          {
+            "name": "Animals_63",
+            "uuid": "334233ac-7edd-4ea7-8b2c-13e3d88302e1",
+            "textureUuid": "51d874ac-c74d-4ba9-96d1-94e4012729eb",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950683_image_6.png",
+            "trim": {
+              "x": 531,
+              "y": 520,
+              "width": 72,
+              "height": 66,
+              "rotatedWidth": 66,
+              "rotatedHeight": 72
+            },
+            "rawWidth": 72,
+            "rawHeight": 66,
+            "width": 78,
+            "height": 72,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/51/51d874ac-c74d-4ba9-96d1-94e4012729eb.png",
+            "x": 528,
+            "y": 517,
+            "rotated": true,
+            "rotatedWidth": 72,
+            "rotatedHeight": 78
+          },
+          {
+            "name": "Animals_29",
+            "uuid": "2ef64013-473d-47bb-ac05-4a0e93f9f4c6",
+            "textureUuid": "fb0ecb6e-540d-4db9-9da2-4e569f216108",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950683_image_5.png",
+            "trim": {
+              "x": 548,
+              "y": 445,
+              "width": 65,
+              "height": 71,
+              "rotatedWidth": 71,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 65,
+            "rawHeight": 71,
+            "width": 71,
+            "height": 77,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/fb/fb0ecb6e-540d-4db9-9da2-4e569f216108.png",
+            "x": 545,
+            "y": 442,
+            "rotated": true,
+            "rotatedWidth": 77,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "Animals_17",
+            "uuid": "c69e753a-2b45-4383-8b19-75834efd213d",
+            "textureUuid": "af61c1c3-3af5-42f3-9131-c6f60ce003fb",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950764_image_30.png",
+            "trim": {
+              "x": 534,
+              "y": 598,
+              "width": 64,
+              "height": 69,
+              "rotatedWidth": 64,
+              "rotatedHeight": 69
+            },
+            "rawWidth": 64,
+            "rawHeight": 69,
+            "width": 70,
+            "height": 75,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/af/af61c1c3-3af5-42f3-9131-c6f60ce003fb.png",
+            "x": 531,
+            "y": 595,
+            "rotatedWidth": 70,
+            "rotatedHeight": 75
+          },
+          {
+            "name": "Animals_42",
+            "uuid": "40036d1b-83b0-43a9-8bb0-498a49eb113a",
+            "textureUuid": "a61eaecc-b615-4349-8b3d-d28d56bbaf38",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950692_image_9.png",
+            "trim": {
+              "x": 603,
+              "y": 516,
+              "width": 61,
+              "height": 69,
+              "rotatedWidth": 61,
+              "rotatedHeight": 69
+            },
+            "rawWidth": 61,
+            "rawHeight": 69,
+            "width": 67,
+            "height": 75,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/a6/a61eaecc-b615-4349-8b3d-d28d56bbaf38.png",
+            "x": 600,
+            "y": 513,
+            "rotatedWidth": 67,
+            "rotatedHeight": 75
+          },
+          {
+            "name": "Animals_58",
+            "uuid": "8a628d17-06b6-4d52-b30d-8d95b6d5d4c7",
+            "textureUuid": "1c834f6e-0f36-4bbc-8745-7cb96fa1e237",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950734_image_20.png",
+            "trim": {
+              "x": 625,
+              "y": 445,
+              "width": 56,
+              "height": 72,
+              "rotatedWidth": 72,
+              "rotatedHeight": 56
+            },
+            "rawWidth": 56,
+            "rawHeight": 72,
+            "width": 62,
+            "height": 78,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/1c/1c834f6e-0f36-4bbc-8745-7cb96fa1e237.png",
+            "x": 622,
+            "y": 442,
+            "rotated": true,
+            "rotatedWidth": 78,
+            "rotatedHeight": 62
+          },
+          {
+            "name": "Animals_28",
+            "uuid": "deb2ce70-3684-45d3-a4af-10518437731a",
+            "textureUuid": "8bee8308-b2e5-40b0-befa-21b9fa036797",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950775_image_36.png",
+            "trim": {
+              "x": 534,
+              "y": 673,
+              "width": 55,
+              "height": 70,
+              "rotatedWidth": 70,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 55,
+            "rawHeight": 70,
+            "width": 61,
+            "height": 76,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/8b/8bee8308-b2e5-40b0-befa-21b9fa036797.png",
+            "x": 531,
+            "y": 670,
+            "rotated": true,
+            "rotatedWidth": 76,
+            "rotatedHeight": 61
+          },
+          {
+            "name": "Line_37",
+            "uuid": "000bc4d7-fb63-41cc-a161-4fbb7f94b4b3",
+            "textureUuid": "fb998ad2-7568-4ae4-b63e-6256ab14db16",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950674_image_0.png",
+            "trim": {
+              "x": 604,
+              "y": 591,
+              "width": 51,
+              "height": 70,
+              "rotatedWidth": 51,
+              "rotatedHeight": 70
+            },
+            "rawWidth": 51,
+            "rawHeight": 70,
+            "width": 57,
+            "height": 76,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/fb/fb998ad2-7568-4ae4-b63e-6256ab14db16.png",
+            "x": 601,
+            "y": 588,
+            "rotatedWidth": 57,
+            "rotatedHeight": 76
+          },
+          {
+            "name": "Line_19",
+            "uuid": "8091ab37-0a4f-4579-8495-282a7029667f",
+            "textureUuid": "1eeebfe4-8318-48b8-96e8-30e654466680",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950721_image_16.png",
+            "trim": {
+              "x": 610,
+              "y": 667,
+              "width": 51,
+              "height": 70,
+              "rotatedWidth": 70,
+              "rotatedHeight": 51
+            },
+            "rawWidth": 51,
+            "rawHeight": 70,
+            "width": 57,
+            "height": 76,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/1e/1eeebfe4-8318-48b8-96e8-30e654466680.png",
+            "x": 607,
+            "y": 664,
+            "rotated": true,
+            "rotatedWidth": 76,
+            "rotatedHeight": 57
+          },
+          {
+            "name": "icon_upgrades",
+            "uuid": "ecf5edec-45e5-4700-ad00-4e5cac76a458",
+            "textureUuid": "64f85ae5-a66b-4331-bcf6-f44657a89d1e",
+            "path": "/Users/macmac/project/game-center/dongwulianyilian/temp/trimImages/spritesheet_js_1614215950790_image_41.png",
+            "trim": {
+              "x": 661,
+              "y": 591,
+              "width": 50,
+              "height": 60,
+              "rotatedWidth": 60,
+              "rotatedHeight": 50
+            },
+            "rawWidth": 50,
+            "rawHeight": 60,
+            "width": 56,
+            "height": 66,
+            "originalPath": "/Users/macmac/project/game-center/dongwulianyilian/library/imports/64/64f85ae5-a66b-4331-bcf6-f44657a89d1e.png",
+            "x": 658,
+            "y": 588,
+            "rotated": true,
+            "rotatedWidth": 66,
+            "rotatedHeight": 56
+          }
+        ],
+        "width": 730,
+        "height": 731,
+        "name": "AutoAtlas-1",
+        "imagePath": "/Users/macmac/project/game-center/dongwulianyilian/temp/TexturePacker/build/native/assets/Game/Textures/AutoAtlas.pac/AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/macmac/project/game-center/dongwulianyilian/temp/TexturePacker/build/native/assets/Game/Textures/AutoAtlas.pac/compressed/AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

@@ -1,0 +1,91 @@
+2021-02-25T01:11:32.594Z - normal: Load ~/.CocosCreator/settings.json
+2021-02-25T01:11:32.638Z - normal: Initializing Asset Database
+2021-02-25T01:11:32.640Z - normal: checking language setting...
+2021-02-25T01:11:32.640Z - normal: Language: zh
+2021-02-25T01:11:33.428Z - success: protocol editor-framework registered
+2021-02-25T01:11:33.428Z - success: protocol app registered
+2021-02-25T01:11:33.428Z - success: protocol theme registered
+2021-02-25T01:11:33.429Z - success: protocol packages registered
+2021-02-25T01:11:33.429Z - success: protocol uuid registerred
+2021-02-25T01:11:33.429Z - success: protocol db registerred
+2021-02-25T01:11:33.429Z - success: protocol thumbnail registerred
+2021-02-25T01:11:33.429Z - success: protocol unpack registerred
+2021-02-25T01:11:33.429Z - success: protocol disable-commonjs registerred
+2021-02-25T01:11:33.588Z - normal: connected!
+2021-02-25T01:11:33.589Z - normal: Check project /Users/macmac/project/game-center/dongwulianyilian
+2021-02-25T01:11:33.590Z - normal: Initializing project /Users/macmac/project/game-center/dongwulianyilian
+2021-02-25T01:11:33.727Z - success: adapters loaded
+2021-02-25T01:11:33.730Z - success: asset-db-debugger loaded
+2021-02-25T01:11:33.784Z - success: fb-audience-network loaded
+2021-02-25T01:11:33.810Z - success: fb-live-stream loaded
+2021-02-25T01:11:33.813Z - success: google-play-instant loaded
+2021-02-25T01:11:33.814Z - success: jsb-adapter loaded
+2021-02-25T01:11:33.818Z - success: package-manager loaded
+2021-02-25T01:11:33.819Z - success: runtime-adapters loaded
+2021-02-25T01:11:33.822Z - success: runtime-dev-tools loaded
+2021-02-25T01:11:33.825Z - success: ui-kit-preview-extra loaded
+2021-02-25T01:11:33.827Z - success: ui-kit-preview loaded
+2021-02-25T01:11:33.874Z - success: alipay-minigame loaded
+2021-02-25T01:11:33.940Z - success: assets loaded
+2021-02-25T01:11:33.942Z - success: baidugame-opendata loaded
+2021-02-25T01:11:33.944Z - success: baidugame loaded
+2021-02-25T01:11:33.947Z - success: builder loaded
+2021-02-25T01:11:33.949Z - success: bytedance-opendata loaded
+2021-02-25T01:11:33.950Z - success: bytedance loaded
+2021-02-25T01:11:33.952Z - success: channel-upload-tools loaded
+2021-02-25T01:11:33.956Z - success: cloud-function loaded
+2021-02-25T01:11:34.087Z - success: cocos-services loaded
+2021-02-25T01:11:34.090Z - success: console loaded
+2021-02-25T01:11:34.092Z - success: curve-editor loaded
+2021-02-25T01:11:34.103Z - success: fb-instant-games loaded
+2021-02-25T01:11:34.106Z - success: game-window loaded
+2021-02-25T01:11:34.107Z - success: google-instant-games loaded
+2021-02-25T01:11:34.111Z - success: hierarchy loaded
+2021-02-25T01:11:34.113Z - success: huawei-agc loaded
+2021-02-25T01:11:34.116Z - success: huawei-runtime loaded
+2021-02-25T01:11:34.119Z - success: inspector loaded
+2021-02-25T01:11:34.134Z - success: cpk-publish loaded
+2021-02-25T01:11:34.135Z - success: keystore loaded
+2021-02-25T01:11:34.148Z - success: link-sure-runtime loaded
+2021-02-25T01:11:34.158Z - success: node-library loaded
+2021-02-25T01:11:34.158Z - success: open-recent-items loaded
+2021-02-25T01:11:34.161Z - success: oppo-runtime loaded
+2021-02-25T01:11:34.163Z - success: package-asset loaded
+2021-02-25T01:11:34.164Z - success: preferences loaded
+2021-02-25T01:11:34.167Z - success: project-importer loaded
+2021-02-25T01:11:34.170Z - success: project-settings loaded
+2021-02-25T01:11:34.183Z - success: qtt-runtime loaded
+2021-02-25T01:11:34.187Z - success: scene loaded
+2021-02-25T01:11:34.187Z - success: simulator-debugger loaded
+2021-02-25T01:11:34.188Z - success: sprite-editor loaded
+2021-02-25T01:11:34.222Z - success: store loaded
+2021-02-25T01:11:34.226Z - success: timeline loaded
+2021-02-25T01:11:34.230Z - success: vivo-runtime loaded
+2021-02-25T01:11:34.231Z - success: wechatgame-opendata loaded
+2021-02-25T01:11:34.234Z - success: wechatgame loaded
+2021-02-25T01:11:34.237Z - success: xiaomi-runtime loaded
+2021-02-25T01:11:34.241Z - success: batch_import_res loaded
+2021-02-25T01:11:34.413Z - success: im-plugin loaded
+2021-02-25T01:11:34.679Z - success: ccc-obfuscated-code loaded
+2021-02-25T01:11:34.680Z - success: preview server running at http://localhost:7456
+2021-02-25T01:11:36.047Z - info: Cocos Service load base data!
+2021-02-25T01:11:36.542Z - normal: Initializing Cocos2d
+2021-02-25T01:11:36.880Z - normal: Initializing engine extends
+2021-02-25T01:11:41.528Z - info: 插件脚本在编辑器中加载时，在最外层用 var 声明的变量将不再做为全局变量。如果不需要在编辑器中加载插件，则直接取消"允许编辑器加载"即可，否则请改用 "window.xx = yy;" 来定义全局变量。 😂
+插件脚本："/Users/macmac/project/game-center/dongwulianyilian/assets/framework/plugin_boosts/libs/flatbuffers.js"
+所在行："var flatbuffers = {};"
+2021-02-25T01:11:41.533Z - info: 插件脚本在编辑器中加载时，在最外层用 var 声明的变量将不再做为全局变量。如果不需要在编辑器中加载插件，则直接取消"允许编辑器加载"即可，否则请改用 "window.xx = yy;" 来定义全局变量。 😂
+插件脚本："/Users/macmac/project/game-center/dongwulianyilian/assets/framework/plugin_boosts/libs/g.js"
+所在行："var g = function(){"
+2021-02-25T01:11:41.533Z - info: 插件脚本在编辑器中加载时，在最外层用 var 声明的变量将不再做为全局变量。如果不需要在编辑器中加载插件，则直接取消"允许编辑器加载"即可，否则请改用 "window.xx = yy;" 来定义全局变量。 😂
+插件脚本："/Users/macmac/project/game-center/dongwulianyilian/assets/framework/plugin_boosts/libs/g.js"
+所在行："var _G = this;"
+2021-02-25T01:11:45.492Z - normal: Loading packages
+2021-02-25T01:11:45.495Z - normal: Watching packages
+2021-02-25T01:11:45.572Z - normal: Run Application
+2021-02-25T01:12:09.570Z - warn: The Asset used by component "cc.Sprite" in prefab "addToMyFav.prefab" is missing. Detailed information:
+Node path: "addToMyFav"
+Asset url: "db://assets/Game/Prefabs/addToMyFav.prefab"
+Missing uuid: "6c753972-b5d2-47bc-b541-3affb264c02e"
+
+2021-02-25T02:47:05.243Z - info: shutdown preview server
