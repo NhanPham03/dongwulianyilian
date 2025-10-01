@@ -51,6 +51,9 @@ export default class UserInfoClass extends DataCenter
     }
 
     @field()
+    region:string = "vn";
+
+    @field()
     level:number = 1;
 
     @field()

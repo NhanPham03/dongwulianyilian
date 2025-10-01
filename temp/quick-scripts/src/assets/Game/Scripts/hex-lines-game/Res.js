@@ -10,6 +10,7 @@ var Res = /** @class */ (function (_super) {
     __extends(Res, _super);
     function Res() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.localeJson = null;
         _this.levelJson = null;
         _this.TilePrefab = null;
         _this.TileShadow = null;
@@ -36,6 +37,9 @@ var Res = /** @class */ (function (_super) {
     };
     Res.prototype.start = function () {
     };
+    __decorate([
+        property(cc.JsonAsset)
+    ], Res.prototype, "localeJson", void 0);
     __decorate([
         property(cc.JsonAsset)
     ], Res.prototype, "levelJson", void 0);

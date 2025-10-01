@@ -25,6 +25,7 @@ var UserInfoClass = /** @class */ (function (_super) {
         var _this = _super.call(this) || this;
         _this.choices = [];
         _this.version = "6";
+        _this.region = "vn";
         _this.level = 1;
         _this.selectedSkin = "2";
         _this.dailyGetTime = new Date(2018, 1, 1).getTime();
@@ -109,6 +110,9 @@ var UserInfoClass = /** @class */ (function (_super) {
     UserInfoClass.prototype.unlock = function (skin_id) {
         localStorage.setItem("unlocked_" + skin_id, "1");
     };
+    __decorate([
+        DataCenter_1.field()
+    ], UserInfoClass.prototype, "region", void 0);
     __decorate([
         DataCenter_1.field()
     ], UserInfoClass.prototype, "level", void 0);

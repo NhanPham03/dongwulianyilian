@@ -66,6 +66,10 @@ export default class Main extends cc.Component {
         ViewManager.instance.show("wechat/WxRankDialog")
     }
 
+    click_lang() {
+        ViewManager.instance.show("Game/LanguageDialog");
+    }
+
     onShare() {
 
     }

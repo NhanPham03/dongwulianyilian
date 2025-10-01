@@ -58,6 +58,9 @@ var Main = /** @class */ (function (_super) {
     Main.prototype.click_rank = function () {
         ViewManager_1.default.instance.show("wechat/WxRankDialog");
     };
+    Main.prototype.click_lang = function () {
+        ViewManager_1.default.instance.show("Game/LanguageDialog");
+    };
     Main.prototype.onShare = function () {
     };
     Main.prototype.click_share = function () {

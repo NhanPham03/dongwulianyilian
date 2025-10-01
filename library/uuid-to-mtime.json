@@ -900,13 +900,13 @@
     "relativePath": "framework\\plugin_boosts\\res\\images\\white.png"
   },
   "e6a20949-3651-4b49-9473-e190b15b425c": {
-    "asset": 1759248963522,
-    "meta": 1759251431291,
+    "asset": 1759292381764,
+    "meta": 1759312506126,
     "relativePath": "framework\\plugin_boosts\\res\\ui"
   },
   "da9bd397-7deb-4a34-b412-cbf8ce0281c3": {
-    "asset": 1759248963530,
-    "meta": 1759251433846,
+    "asset": 1759295102476,
+    "meta": 1759312506128,
     "relativePath": "framework\\plugin_boosts\\res\\ui\\game"
   },
   "076180c8-6f83-4aee-b8a4-7be95fa88b52": {
@@ -925,8 +925,8 @@
     "relativePath": "framework\\plugin_boosts\\res\\ui\\game\\LevelSelector.prefab"
   },
   "7476fe93-a1b5-47f9-b0e7-a3b6f2c7d93c": {
-    "asset": 1759248963668,
-    "meta": 1759251428565,
+    "asset": 1759296374663,
+    "meta": 1759312506122,
     "relativePath": "framework\\plugin_boosts\\ui"
   },
   "a56c0161-d5ba-43b6-8e94-c03a2ffaeecc": {
@@ -960,14 +960,9 @@
     "relativePath": "framework\\plugin_boosts\\ui\\DCUI.ts"
   },
   "127debbc-dbfb-45ba-b240-2feb0b5c6997": {
-    "asset": 1759248963675,
-    "meta": 1759251431431,
+    "asset": 1759296398169,
+    "meta": 1759312506127,
     "relativePath": "framework\\plugin_boosts\\ui\\game"
-  },
-  "b79423bd-489d-4916-9713-d3f0fb62214e": {
-    "asset": 1629800916000,
-    "meta": 1759251433893,
-    "relativePath": "framework\\plugin_boosts\\ui\\game\\LevelSelector.ts"
   },
   "480498c3-eb32-4c9a-88be-70f911857ec3": {
     "asset": 1629800916000,
@@ -1160,8 +1155,8 @@
     "relativePath": "framework\\wxsdk\\WxRankDialog.ts"
   },
   "b081b4f8-d34d-4c06-80f9-fa5b0f8e3c39": {
-    "asset": 1759248964553,
-    "meta": 1759251427925,
+    "asset": 1759294102790,
+    "meta": 1759312506120,
     "relativePath": "Game"
   },
   "73121f54-af41-448a-b93b-9adc0913886e": {
@@ -1210,18 +1205,13 @@
     "relativePath": "Game\\Fonts\\cm.fnt"
   },
   "5bb178c2-a122-4a32-b9bd-d2374342014d": {
-    "asset": 1758618982000,
-    "meta": 1759251428564,
+    "asset": 1759314885654,
+    "meta": 1759314885671,
     "relativePath": "Game\\Game.fire"
   },
-  "36519ac9-108b-46b6-8b9c-52771ee29b6d": {
-    "asset": 1629800916000,
-    "meta": 1759251428475,
-    "relativePath": "Game\\level.json"
-  },
   "a10835ba-ff93-41b0-9d9e-af4a37fd50d5": {
-    "asset": 1759116867000,
-    "meta": 1759251428570,
+    "asset": 1759311969682,
+    "meta": 1759311969703,
     "relativePath": "Game\\Main.fire"
   },
   "209a1bf7-4ab8-4cd5-a129-d78d9e26a3e4": {
@@ -1345,8 +1335,8 @@
     "relativePath": "Game\\Scripts\\Config\\lucky.json"
   },
   "0b6b24a9-41f6-4b06-a81b-65c448891f09": {
-    "asset": 1759248964370,
-    "meta": 1759251429310,
+    "asset": 1759302273129,
+    "meta": 1759312506123,
     "relativePath": "Game\\Scripts\\hex-lines-game"
   },
   "ba634bac-f779-4f62-b059-a4e68be287e8": {
@@ -1394,24 +1384,9 @@
     "meta": 1759251432161,
     "relativePath": "Game\\Scripts\\hex-lines-game\\HexonTile.ts"
   },
-  "81fb2f3e-d793-4335-a1fd-33cd4c2b1c14": {
-    "asset": 1629800916000,
-    "meta": 1759251432196,
-    "relativePath": "Game\\Scripts\\hex-lines-game\\Res.ts"
-  },
-  "894dd787-c593-4e32-a0fa-056f9885e66b": {
-    "asset": 1629800916000,
-    "meta": 1759251429365,
-    "relativePath": "Game\\Scripts\\Info.ts"
-  },
-  "979d29bd-5a54-4dd3-9d7d-16471405ae44": {
-    "asset": 1629800916000,
-    "meta": 1759251429405,
-    "relativePath": "Game\\Scripts\\Main.ts"
-  },
   "ef8004c1-ae03-46d2-8c50-7dee89f9494d": {
-    "asset": 1759248964471,
-    "meta": 1759251429406,
+    "asset": 1759310850636,
+    "meta": 1759312506124,
     "relativePath": "Game\\Scripts\\ui"
   },
   "d3b8f328-7560-4f9a-8bea-4ee71ba66e42": {
@@ -1545,8 +1520,8 @@
     "relativePath": "resources"
   },
   "2b08bffe-3b60-4857-ab6a-0cf1a9973ea0": {
-    "asset": 1759248965507,
-    "meta": 1759251428200,
+    "asset": 1759307773915,
+    "meta": 1759312506121,
     "relativePath": "resources\\Game"
   },
   "22b91f55-f794-428d-8fa9-58ae96fb2e1c": {
@@ -1565,9 +1540,9 @@
     "relativePath": "resources\\Game\\HbDialog.prefab"
   },
   "cf1bccc7-2f82-454f-a268-924d2b6d644e": {
-    "asset": 1759281840596,
-    "meta": 1759281840617,
-    "relativePath": "resources\\Game\\LevelDialog.prefab"
+    "asset": 1759315765437,
+    "meta": 1759315765457,
+    "relativePath": "resources\\Game\\LanguageDialog.prefab"
   },
   "f2e4f3db-bcdb-4bd8-809d-a7014e024a22": {
     "asset": 1758618983000,
@@ -1595,8 +1570,8 @@
     "relativePath": "resources\\Game\\Particles\\fall_follower.plist"
   },
   "cee05ca8-eab8-48a8-9243-5b8227f165a6": {
-    "asset": 1758618983000,
-    "meta": 1759251430648,
+    "asset": 1759315507598,
+    "meta": 1759315507614,
     "relativePath": "resources\\Game\\OpenGuide.prefab"
   },
   "9ba8bfa9-a899-43d6-8ec6-f0c6e632eaee": {
@@ -1635,8 +1610,8 @@
     "relativePath": "resources\\Game\\Particles\\stars2.plist"
   },
   "469592be-981d-4eb1-95dd-d46420458191": {
-    "asset": 1758618983000,
-    "meta": 1759251430549,
+    "asset": 1759313091057,
+    "meta": 1759313091073,
     "relativePath": "resources\\Game\\PauseDialog.prefab"
   },
   "8a9c804f-b0ae-49e6-ab9a-614c184490ad": {
@@ -2159,9 +2134,69 @@
     "meta": 1759251433487,
     "relativePath": "Game\\Textures\\Tiles\\Tile_22.png"
   },
+  "b79423bd-489d-4916-9713-d3f0fb62214e": {
+    "asset": 1759284623888,
+    "meta": 1759284625099,
+    "relativePath": "framework\\plugin_boosts\\ui\\game\\LevelSelector.ts"
+  },
+  "36519ac9-108b-46b6-8b9c-52771ee29b6d": {
+    "asset": 1759285090784,
+    "meta": 1759288679157,
+    "relativePath": "Game\\level.json"
+  },
+  "2d690b2e-4286-4a8e-8569-6f335d65d20f": {
+    "asset": 1759292446467,
+    "meta": 1759292446499,
+    "relativePath": "framework\\plugin_boosts\\res\\ui\\LanguageManager.prefab"
+  },
+  "843416c3-8dfb-46ae-8c55-8392a0851771": {
+    "asset": 1759306818497,
+    "meta": 1759306818519,
+    "relativePath": "framework\\plugin_boosts\\res\\ui\\game\\LanguageSelector.prefab"
+  },
+  "81fb2f3e-d793-4335-a1fd-33cd4c2b1c14": {
+    "asset": 1759297615539,
+    "meta": 1759297617144,
+    "relativePath": "Game\\Scripts\\hex-lines-game\\Res.ts"
+  },
+  "894dd787-c593-4e32-a0fa-056f9885e66b": {
+    "asset": 1759300109602,
+    "meta": 1759300602042,
+    "relativePath": "Game\\Scripts\\Info.ts"
+  },
+  "ad76b0f8-c907-4d18-92ec-8ef60e2152b9": {
+    "asset": 1759312144495,
+    "meta": 1759312144524,
+    "relativePath": "resources\\Game\\LevelDialog.prefab"
+  },
+  "979d29bd-5a54-4dd3-9d7d-16471405ae44": {
+    "asset": 1759308149587,
+    "meta": 1759308152542,
+    "relativePath": "Game\\Scripts\\Main.ts"
+  },
+  "f0708ab3-31c0-4746-a159-c9347c0bfb51": {
+    "asset": 1759311775274,
+    "meta": 1759311790234,
+    "relativePath": "framework\\plugin_boosts\\ui\\game\\LanguageSelector.ts"
+  },
+  "814c11f0-b551-4d2d-a88c-bbb01544b7af": {
+    "asset": 1759312698338,
+    "meta": 1759312699073,
+    "relativePath": "Game\\Scripts\\ui\\LocalizedLabel.ts"
+  },
+  "641ecec4-a20a-4faf-8e20-84ef52cb6200": {
+    "asset": 1759312970006,
+    "meta": 1759312971533,
+    "relativePath": "framework\\plugin_boosts\\ui\\LanguageManager.ts"
+  },
   "4c9b5484-5e58-4302-a5c6-6add0d716988": {
-    "asset": 1759116858000,
-    "meta": 1759251432069,
+    "asset": 1759315236217,
+    "meta": 1759315238609,
     "relativePath": "Game\\Scripts\\hex-lines-game\\Game.ts"
+  },
+  "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
+    "asset": 1759315493669,
+    "meta": 1759315495995,
+    "relativePath": "Game\\locale.json"
   }
 }

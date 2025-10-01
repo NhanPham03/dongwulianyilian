@@ -5,6 +5,9 @@ export var R:Res = null;
 export default class Res extends cc.Component {
     
     @property(cc.JsonAsset)
+    localeJson:cc.JsonAsset = null;
+
+    @property(cc.JsonAsset)
     levelJson:cc.JsonAsset = null;
 
     @property(cc.Prefab)

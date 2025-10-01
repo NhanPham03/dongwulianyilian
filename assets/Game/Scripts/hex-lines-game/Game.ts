@@ -7,6 +7,7 @@ import Animal from "./Animal";
 import ViewManager from "../../../framework/plugin_boosts/ui/ViewManager";
 import Platform from "../../../framework/Platform";
 import { Toast } from "../../../framework/plugin_boosts/ui/ToastManager";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -132,7 +133,7 @@ export default class LineGame extends cc.Component
         this.schedule(_=>{
             UserInfo.timePassed += 1
             this.timeLabel.string = UserInfo.timePassed + "s";
-            this.stepLabel.string = UserInfo.stepUsed +"步"
+            this.stepLabel.string = UserInfo.stepUsed + LanguageManager.instance.getText("step_count");
         },1)
     }
 

@@ -12,6 +12,7 @@ var Animal_1 = require("./Animal");
 var ViewManager_1 = require("../../../framework/plugin_boosts/ui/ViewManager");
 var Platform_1 = require("../../../framework/Platform");
 var ToastManager_1 = require("../../../framework/plugin_boosts/ui/ToastManager");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var LineGame = /** @class */ (function (_super) {
     __extends(LineGame, _super);
@@ -103,7 +104,7 @@ var LineGame = /** @class */ (function (_super) {
         this.schedule(function (_) {
             Info_1.UserInfo.timePassed += 1;
             _this.timeLabel.string = Info_1.UserInfo.timePassed + "s";
-            _this.stepLabel.string = Info_1.UserInfo.stepUsed + "步";
+            _this.stepLabel.string = Info_1.UserInfo.stepUsed + LanguageManager_1.default.instance.getText("step_count");
         }, 1);
     };
     LineGame.prototype.onTouchBegan = function (e) {
@@ -327,9 +328,10 @@ var LineGame = /** @class */ (function (_super) {
         var _0x8e7d = _0x5f2a[this._0x3f8c('0x5')](0x0);
         var _0x1c4e = _0x8e7d % 0xa;
         var _0x6b9f = (_0x1c4e + 0x1) * 0x2 - 0x3;
-        if (_0x7d4a === _0x2e1f || _0x6b9f === 0x7) {
-            return !0x1;
-        }
+        // CONDITION BELOW BLOCKS LV 5 COMPLETION
+        // if (_0x7d4a === _0x2e1f || _0x6b9f === 0x7) {
+        //     return !0x1;
+        // }
         for (var t = 0, e = this._tileList; t < e[this._0x3f8c('0x2')];) {
             var n = e[t];
             ++t;
