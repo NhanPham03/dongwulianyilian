@@ -1205,8 +1205,8 @@
     "relativePath": "Game\\Game.fire"
   },
   "a10835ba-ff93-41b0-9d9e-af4a37fd50d5": {
-    "asset": 1759375788373,
-    "meta": 1759375788390,
+    "asset": 1759382169745,
+    "meta": 1759382169767,
     "relativePath": "Game\\Main.fire"
   },
   "209a1bf7-4ab8-4cd5-a129-d78d9e26a3e4": {
@@ -1418,11 +1418,6 @@
     "asset": 1629800916000,
     "meta": 1759251432664,
     "relativePath": "Game\\Scripts\\ui\\ShopItemTemplate.ts"
-  },
-  "7d78fd25-53e5-4e5b-bae7-72c49f802e6c": {
-    "asset": 1629800916000,
-    "meta": 1759251432713,
-    "relativePath": "Game\\Scripts\\ui\\WinDialog.ts"
   },
   "f3372355-99c8-434a-b5cc-6f6ee68579ec": {
     "asset": 1759248964544,
@@ -1695,13 +1690,13 @@
     "relativePath": "resources\\wechat"
   },
   "a2dcb37e-b3fe-40ee-a853-b8f03f7240cf": {
-    "asset": 1758618983000,
-    "meta": 1759251430691,
+    "asset": 1759383917496,
+    "meta": 1759383917520,
     "relativePath": "resources\\Game\\WinDialog.prefab"
   },
   "d3348e48-c708-4d6b-9605-7b6fc6dc1e3e": {
-    "asset": 1758618983000,
-    "meta": 1759251430738,
+    "asset": 1759384361605,
+    "meta": 1759384361635,
     "relativePath": "resources\\wechat\\WxRankDialog.prefab"
   },
   "6d2b8d60-affd-48a8-a7b9-76be52ebcff0": {
@@ -2164,11 +2159,6 @@
     "meta": 1759372354751,
     "relativePath": "Game\\Scripts\\Main.ts"
   },
-  "4c9b5484-5e58-4302-a5c6-6add0d716988": {
-    "asset": 1759372424436,
-    "meta": 1759372656474,
-    "relativePath": "Game\\Scripts\\hex-lines-game\\Game.ts"
-  },
   "894dd787-c593-4e32-a0fa-056f9885e66b": {
     "asset": 1759372640300,
     "meta": 1759372656511,
@@ -2194,9 +2184,29 @@
     "meta": 1759377096122,
     "relativePath": "Game\\Scripts\\ui\\DailyGetDialog.ts"
   },
+  "0b08623d-5795-4168-8347-b0cc89dc15fb": {
+    "asset": 1759381053948,
+    "meta": 1759381053985,
+    "relativePath": "resources\\Game\\TimeUpDialog.prefab"
+  },
+  "66727f6c-4e06-42ef-8f31-bad38d27d639": {
+    "asset": 1759380878670,
+    "meta": 1759380885907,
+    "relativePath": "Game\\Scripts\\ui\\TimeUpDialog.ts"
+  },
+  "7d78fd25-53e5-4e5b-bae7-72c49f802e6c": {
+    "asset": 1759381573157,
+    "meta": 1759381575055,
+    "relativePath": "Game\\Scripts\\ui\\WinDialog.ts"
+  },
   "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
-    "asset": 1759377189236,
-    "meta": 1759377191388,
+    "asset": 1759384239125,
+    "meta": 1759384241516,
     "relativePath": "Game\\locale.json"
+  },
+  "4c9b5484-5e58-4302-a5c6-6add0d716988": {
+    "asset": 1759384490389,
+    "meta": 1759384509172,
+    "relativePath": "Game\\Scripts\\hex-lines-game\\Game.ts"
   }
 }

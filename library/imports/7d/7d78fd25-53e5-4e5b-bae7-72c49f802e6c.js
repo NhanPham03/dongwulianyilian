@@ -7,6 +7,7 @@ var Info_1 = require("../Info");
 var Platform_1 = require("../../../framework/Platform");
 var ViewManager_1 = require("../../../framework/plugin_boosts/ui/ViewManager");
 var Consts_1 = require("../hex-lines-game/Consts");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var WinDialog = /** @class */ (function (_super) {
     __extends(WinDialog, _super);
@@ -26,7 +27,14 @@ var WinDialog = /** @class */ (function (_super) {
     WinDialog.prototype.onShown = function () {
         this.ps.resetSystem();
         Platform_1.default.showSmallRank();
-        this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - ", Info_1.UserInfo.currentLevel);
+        // this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - " , UserInfo.currentLevel)
+        if (LanguageManager_1.default.instance.region == "zh-CN") {
+            this.levelLabel.string = cc.js.formatStr("- 第 %s 关 -", Info_1.UserInfo.currentLevel);
+        }
+        else {
+            var text = LanguageManager_1.default.instance.getText("level");
+            this.levelLabel.string = "- " + text + " " + Info_1.UserInfo.currentLevel + " -";
+        }
         this.stepLabel.string = Info_1.UserInfo.stepUsed.toString();
         this.timeLabel.string = Info_1.UserInfo.timePassed.toString() + "s";
         var p = g.decreaseFomula(0.99, 0.3, Info_1.UserInfo.timePassed + Info_1.UserInfo.stepUsed, Info_1.UserInfo.currentLevel + 50);

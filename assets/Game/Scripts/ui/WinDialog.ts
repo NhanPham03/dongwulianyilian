@@ -2,6 +2,7 @@ import { UserInfo, ChoiceType } from "../Info";
 import Platform from "../../../framework/Platform";
 import ViewManager from "../../../framework/plugin_boosts/ui/ViewManager";
 import Consts from "../hex-lines-game/Consts";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -39,7 +40,14 @@ export default class WinDialog extends cc.Component {
         this.ps.resetSystem();
         Platform.showSmallRank();
 
-        this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - " , UserInfo.currentLevel)
+        // this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - " , UserInfo.currentLevel)
+        if (LanguageManager.instance.region == "zh-CN") {
+            this.levelLabel.string = cc.js.formatStr("- 第 %s 关 -", UserInfo.currentLevel);
+        }
+        else {
+            const text = LanguageManager.instance.getText("level");
+            this.levelLabel.string = `- ${text} ${UserInfo.currentLevel} -`;
+        }
         this.stepLabel.string = UserInfo.stepUsed.toString()
         this.timeLabel.string = UserInfo.timePassed.toString() +"s";
         let p = g.decreaseFomula(0.99,0.3,UserInfo.timePassed + UserInfo.stepUsed,UserInfo.currentLevel + 50 )

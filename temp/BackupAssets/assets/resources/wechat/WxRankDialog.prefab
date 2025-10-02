@@ -353,8 +353,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "好友排行",
-    "_N$string": "好友排行",
+    "_string": "恭喜过关",
+    "_N$string": "恭喜过关",
     "_fontSize": 40,
     "_lineHeight": 32,
     "_enableWrapText": true,
@@ -381,7 +381,7 @@
       "__id__": 6
     },
     "_enabled": true,
-    "textKey": "ranking",
+    "textKey": "win_msg",
     "_id": ""
   },
   {

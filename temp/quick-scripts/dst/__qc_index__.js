@@ -32,6 +32,7 @@ require('./assets/Game/Scripts/ui/LuckyDialog');
 require('./assets/Game/Scripts/ui/PauseDialog');
 require('./assets/Game/Scripts/ui/ShopDialog');
 require('./assets/Game/Scripts/ui/ShopItemTemplate');
+require('./assets/Game/Scripts/ui/TimeUpDialog');
 require('./assets/Game/Scripts/ui/WinDialog');
 require('./assets/framework/Platform');
 require('./assets/framework/network/ConnectManager');

@@ -114,6 +114,7 @@ export default class LineGame extends cc.Component
             }
             this._tileList.push(tmplist)
         }
+
         
         this._gridManager = this.tileLayer.addComponent(GridManager)
         this._gridManager.init(this._levelData.mincol);
@@ -123,6 +124,7 @@ export default class LineGame extends cc.Component
 
         this.addComponent(InputSystem);
 
+        
 
         // this._uiLayer = new g,
         // this._uiManager = new ni(this._stageIndex + 1),
@@ -131,12 +133,24 @@ export default class LineGame extends cc.Component
         UserInfo.timePassed = 0;
         UserInfo.stepUsed = 0;
         this.schedule(_=>{
+            if (this._isGameOver) return;
+
             UserInfo.timePassed += 1
             this.timeLabel.string = UserInfo.timePassed + "s";
             this.stepLabel.string = UserInfo.stepUsed + LanguageManager.instance.getText("step_count");
+
+            if (UserInfo.timePassed >= (10 * UserInfo.currentLevel)) {
+                this._isGameOver = true;
+                this.onTimeUp();
+            }
         },1)
     }
 
+    onTimeUp()
+    {
+        cc.audioEngine.playEffect(R.audio_invalid, false);
+        ViewManager.instance.show("Game/TimeUpDialog");
+    }
 
     onTouchBegan(e)
     {

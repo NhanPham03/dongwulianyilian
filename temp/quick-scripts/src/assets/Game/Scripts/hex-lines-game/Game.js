@@ -102,10 +102,20 @@ var LineGame = /** @class */ (function (_super) {
         Info_1.UserInfo.timePassed = 0;
         Info_1.UserInfo.stepUsed = 0;
         this.schedule(function (_) {
+            if (_this._isGameOver)
+                return;
             Info_1.UserInfo.timePassed += 1;
             _this.timeLabel.string = Info_1.UserInfo.timePassed + "s";
             _this.stepLabel.string = Info_1.UserInfo.stepUsed + LanguageManager_1.default.instance.getText("step_count");
+            if (Info_1.UserInfo.timePassed >= (10 * Info_1.UserInfo.currentLevel)) {
+                _this._isGameOver = true;
+                _this.onTimeUp();
+            }
         }, 1);
+    };
+    LineGame.prototype.onTimeUp = function () {
+        cc.audioEngine.playEffect(Res_1.R.audio_invalid, false);
+        ViewManager_1.default.instance.show("Game/TimeUpDialog");
     };
     LineGame.prototype.onTouchBegan = function (e) {
         var t = this;
