@@ -4,6 +4,7 @@ import { Toast } from "../../framework/plugin_boosts/ui/ToastManager";
 import Device from "../../framework/plugin_boosts/gamesys/Device";
 import Platform from "../../framework/Platform";
 import MoreGameManager from "../../framework/wxsdk/MoreGameManager";
+import LanguageManager from "../../framework/plugin_boosts/ui/LanguageManager";
 
 
 export enum ChoiceType  {
@@ -91,14 +92,18 @@ export default class UserInfoClass extends DataCenter
         else this.diamond += parseInt(d);
         if(b)
         {
-            Toast.make("获得钻石 x" + d)
+            const text = LanguageManager.instance.getText("get_diamonds");
+            // Toast.make("获得钻石 x" + d)
+            Toast.make(`${text} x + ${d}`)
             Device.playEffect(R.audio_get_diamond);
         }
         if(!this.firstTimeReach)
         {
             if(this.diamond >= 500)
             {
-                Toast.make("哇可以买皮肤了，快去皮肤商店看看吧!",2)
+                // Toast.make("哇可以买皮肤了，快去皮肤商店看看吧!",2)
+                const text = LanguageManager.instance.getText("check_store");
+                Toast.make(text,2)
                 this.firstTimeReach = true
                 UserInfo.save();
             }

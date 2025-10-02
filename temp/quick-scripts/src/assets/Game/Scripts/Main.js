@@ -9,6 +9,7 @@ var Platform_1 = require("../../framework/Platform");
 var Device_1 = require("../../framework/plugin_boosts/gamesys/Device");
 var Res_1 = require("./hex-lines-game/Res");
 var ToastManager_1 = require("../../framework/plugin_boosts/ui/ToastManager");
+var LanguageManager_1 = require("../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Main = /** @class */ (function (_super) {
     __extends(Main, _super);
@@ -70,7 +71,8 @@ var Main = /** @class */ (function (_super) {
         ViewManager_1.default.instance.show("Game/LuckyDialog");
     };
     Main.prototype.click_more = function () {
-        ToastManager_1.Toast.make("敬请期待");
+        // Toast.make("敬请期待")
+        ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("more"));
     };
     var Main_1;
     Main.instance = null;

@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "DailyDialog",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -42,6 +42,9 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 41
+      },
+      {
         "__id__": 42
       },
       {
@@ -49,13 +52,10 @@
       },
       {
         "__id__": 44
-      },
-      {
-        "__id__": 45
       }
     ],
     "_prefab": {
-      "__id__": 46
+      "__id__": 45
     },
     "_opacity": 255,
     "_color": {
@@ -1226,13 +1226,10 @@
       },
       {
         "__id__": 38
-      },
-      {
-        "__id__": 40
       }
     ],
     "_prefab": {
-      "__id__": 41
+      "__id__": 40
     },
     "_opacity": 255,
     "_color": {
@@ -1505,21 +1502,10 @@
     "target": {
       "__id__": 1
     },
-    "component": "",
-    "_componentId": "d3b8fModWBPmovqTucbpm5C",
+    "component": "DailyGetDialog",
+    "_componentId": "",
     "handler": "click_get",
     "customEventData": ""
-  },
-  {
-    "__type__": "814c1HwtVFNLaiMu7AVRLev",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 33
-    },
-    "_enabled": true,
-    "textKey": "receive_rewards",
-    "_id": ""
   },
   {
     "__type__": "cc.PrefabInfo",

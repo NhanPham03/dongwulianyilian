@@ -250,7 +250,8 @@ export default class LineGame extends cc.Component
                     t.danceAll();
 
                 }else{
-                    Toast.make("必须填满所有格子")
+                    // Toast.make("必须填满所有格子")
+                    Toast.make(LanguageManager.instance.getText("fail_msg"))
                 }
             }else{
                 // _uiManager.hideFillAllPopup()

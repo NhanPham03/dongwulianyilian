@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Info_1 = require("../Info");
 var View_1 = require("../../../framework/plugin_boosts/ui/View");
 var Platform_1 = require("../../../framework/Platform");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var DailyGetDialog = /** @class */ (function (_super) {
     __extends(DailyGetDialog, _super);
@@ -19,7 +20,9 @@ var DailyGetDialog = /** @class */ (function (_super) {
     DailyGetDialog.prototype.start = function () { };
     DailyGetDialog.prototype.onShown = function () {
         this.diamond = g.randomInt(20, 50);
-        this.rewardLabel.string = cc.js.formatStr("钻石 x " + this.diamond);
+        // this.rewardLabel.string = cc.js.formatStr("钻石 x " + this.diamond)
+        var text = LanguageManager_1.default.instance.getText("diamonds");
+        this.rewardLabel.string = text + " x " + this.diamond;
     };
     DailyGetDialog.prototype.click_get = function () {
         // share or video 

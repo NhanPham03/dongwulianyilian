@@ -213,7 +213,8 @@ var LineGame = /** @class */ (function (_super) {
                     t.danceAll();
                 }
                 else {
-                    ToastManager_1.Toast.make("必须填满所有格子");
+                    // Toast.make("必须填满所有格子")
+                    ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("fail_msg"));
                 }
             }
             else {

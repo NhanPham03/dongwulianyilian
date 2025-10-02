@@ -6,6 +6,7 @@ import { R } from "../hex-lines-game/Res";
 import { UserInfo, ChoiceType } from "../Info";
 import Device from "../../../framework/plugin_boosts/gamesys/Device";
 import View from "../../../framework/plugin_boosts/ui/View";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -29,7 +30,9 @@ export default class HbDialog extends cc.Component {
     share_suc()
     {
         let cfg = R.skinConfig.json[3]
-        Toast.make("恭喜获得皮肤 ：" + cfg.text) 
+        // Toast.make("恭喜获得皮肤 ：" + cfg.text) 
+        const text = LanguageManager.instance.getText("skin_get")
+        Toast.make(`${text} ${cfg.text}`)
         Device.playEffect(R.audio_unlock);
         UserInfo.unlock(cfg.id);
         UserInfo.selectedSkin = cfg.id;

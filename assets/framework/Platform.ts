@@ -5,6 +5,7 @@ import Device from "./plugin_boosts/gamesys/Device";
 import SpriteFrameCache from "./plugin_boosts/misc/SpriteFrameCache";
 import Signal from "./plugin_boosts/misc/Signal";
 import { event } from "./plugin_boosts/utils/EventManager";
+import LanguageManager from "./plugin_boosts/ui/LanguageManager";
 
 enum WxCommands
 {
@@ -201,7 +202,8 @@ export default class Platform
                     },500)
                 }else{
                     //用户及时返回分享失败 
-                    Toast.make("分享失败,请尝试换其它群分享")
+                    // Toast.make("分享失败,请尝试换其它群分享")
+                    Toast.make(LanguageManager.instance.getText("share_fail"))
                 }
             })
         }else if(cc.sys.QQ_PLAY == cc.sys.platform)
@@ -234,7 +236,8 @@ export default class Platform
                 {
                     Platform.bannnerRefreshEnabled = true;
                     if(!isEnded)
-                        Toast.make("必须看完视频,才能获取奖励")
+                        // Toast.make("必须看完视频,才能获取奖励")
+                        Toast.make(LanguageManager.instance.getText("watch_video"))
                     else
                         callback && callback.call(target)
                 }
@@ -255,7 +258,8 @@ export default class Platform
                 }else if (v=="close")
                 {
                     if(!isFinish)
-                        Toast.make("必须看完视频,才能获取奖励")
+                        // Toast.make("必须看完视频,才能获取奖励")
+                        Toast.make(LanguageManager.instance.getText("watch_video"))
                     else
                         callback && callback.call(target)
                 }

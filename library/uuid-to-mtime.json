@@ -544,11 +544,6 @@
     "meta": 1759251428550,
     "relativePath": "framework\\network\\Socket.ts"
   },
-  "8fc52cd5-6aad-4556-b138-fff5ef33378a": {
-    "asset": 1629800916000,
-    "meta": 1759251428077,
-    "relativePath": "framework\\Platform.ts"
-  },
   "59d09f13-82ca-418b-96b2-6a1d16cce554": {
     "asset": 1759248963688,
     "meta": 1759251428078,
@@ -1210,8 +1205,8 @@
     "relativePath": "Game\\Game.fire"
   },
   "a10835ba-ff93-41b0-9d9e-af4a37fd50d5": {
-    "asset": 1759311969682,
-    "meta": 1759311969703,
+    "asset": 1759375788373,
+    "meta": 1759375788390,
     "relativePath": "Game\\Main.fire"
   },
   "209a1bf7-4ab8-4cd5-a129-d78d9e26a3e4": {
@@ -1220,8 +1215,8 @@
     "relativePath": "Game\\Prefabs"
   },
   "61ef2a04-5343-4433-8fe3-ca83301ce5e1": {
-    "asset": 1758618982000,
-    "meta": 1759251429305,
+    "asset": 1759372801354,
+    "meta": 1759372801382,
     "relativePath": "Game\\Prefabs\\addToMyFav.prefab"
   },
   "beb8b481-5a30-4ece-a546-731189444058": {
@@ -1389,11 +1384,6 @@
     "meta": 1759312506124,
     "relativePath": "Game\\Scripts\\ui"
   },
-  "d3b8f328-7560-4f9a-8bea-4ee71ba66e42": {
-    "asset": 1629800916000,
-    "meta": 1759251432237,
-    "relativePath": "Game\\Scripts\\ui\\DailyGetDialog.ts"
-  },
   "4d8672d2-4d63-4407-b2d4-2f72808d5bde": {
     "asset": 1629800916000,
     "meta": 1759251432279,
@@ -1409,11 +1399,6 @@
     "meta": 1759251432409,
     "relativePath": "Game\\Scripts\\ui\\GetDialog.ts"
   },
-  "ec5aadba-fdd8-4b86-957c-de655e566900": {
-    "asset": 1629800916000,
-    "meta": 1759251432441,
-    "relativePath": "Game\\Scripts\\ui\\HbDialog.ts"
-  },
   "4c94f73c-3c3b-48d6-8dc9-33d9b759128d": {
     "asset": 1629800916000,
     "meta": 1759251432473,
@@ -1424,20 +1409,10 @@
     "meta": 1759251432528,
     "relativePath": "Game\\Scripts\\ui\\LevelupDialog.ts"
   },
-  "a9427e7e-266b-4cc7-a899-6f5f22c0a4de": {
-    "asset": 1629800916000,
-    "meta": 1759251432578,
-    "relativePath": "Game\\Scripts\\ui\\LuckyDialog.ts"
-  },
   "83fb9a2c-5285-44a6-97e4-f01ea6909615": {
     "asset": 1629800916000,
     "meta": 1759251432597,
     "relativePath": "Game\\Scripts\\ui\\PauseDialog.ts"
-  },
-  "1b7cb4fa-e16b-47c6-9a11-7ef955af810d": {
-    "asset": 1629800916000,
-    "meta": 1759251432637,
-    "relativePath": "Game\\Scripts\\ui\\ShopDialog.ts"
   },
   "0b667ff1-bc86-496a-94c1-f994c1aa41cb": {
     "asset": 1629800916000,
@@ -1525,13 +1500,13 @@
     "relativePath": "resources\\Game"
   },
   "22b91f55-f794-428d-8fa9-58ae96fb2e1c": {
-    "asset": 1758618983000,
-    "meta": 1759251430229,
+    "asset": 1759377247735,
+    "meta": 1759377247763,
     "relativePath": "resources\\Game\\DailyDialog.prefab"
   },
   "1bc98cc8-ea04-4069-bbad-3442768fb334": {
-    "asset": 1758618983000,
-    "meta": 1759251430243,
+    "asset": 1759376910541,
+    "meta": 1759376910565,
     "relativePath": "resources\\Game\\GetDialog.prefab"
   },
   "f9f2dc15-05c3-4b03-b182-fac3e9baecbc": {
@@ -1630,8 +1605,8 @@
     "relativePath": "resources\\Game\\prefab\\close.prefab"
   },
   "4e521837-e167-4fdc-9831-9041b3bb9aff": {
-    "asset": 1758618983000,
-    "meta": 1759251430597,
+    "asset": 1759376071853,
+    "meta": 1759376071883,
     "relativePath": "resources\\Game\\ShopDialog.prefab"
   },
   "51d1eeb5-8134-4db0-b874-026bfb86884b": {
@@ -2159,20 +2134,10 @@
     "meta": 1759297617144,
     "relativePath": "Game\\Scripts\\hex-lines-game\\Res.ts"
   },
-  "894dd787-c593-4e32-a0fa-056f9885e66b": {
-    "asset": 1759300109602,
-    "meta": 1759300602042,
-    "relativePath": "Game\\Scripts\\Info.ts"
-  },
   "ad76b0f8-c907-4d18-92ec-8ef60e2152b9": {
     "asset": 1759312144495,
     "meta": 1759312144524,
     "relativePath": "resources\\Game\\LevelDialog.prefab"
-  },
-  "979d29bd-5a54-4dd3-9d7d-16471405ae44": {
-    "asset": 1759308149587,
-    "meta": 1759308152542,
-    "relativePath": "Game\\Scripts\\Main.ts"
   },
   "f0708ab3-31c0-4746-a159-c9347c0bfb51": {
     "asset": 1759311775274,
@@ -2189,14 +2154,49 @@
     "meta": 1759312971533,
     "relativePath": "framework\\plugin_boosts\\ui\\LanguageManager.ts"
   },
+  "8fc52cd5-6aad-4556-b138-fff5ef33378a": {
+    "asset": 1759371328471,
+    "meta": 1759372354627,
+    "relativePath": "framework\\Platform.ts"
+  },
+  "979d29bd-5a54-4dd3-9d7d-16471405ae44": {
+    "asset": 1759371086268,
+    "meta": 1759372354751,
+    "relativePath": "Game\\Scripts\\Main.ts"
+  },
   "4c9b5484-5e58-4302-a5c6-6add0d716988": {
-    "asset": 1759315236217,
-    "meta": 1759315238609,
+    "asset": 1759372424436,
+    "meta": 1759372656474,
     "relativePath": "Game\\Scripts\\hex-lines-game\\Game.ts"
   },
+  "894dd787-c593-4e32-a0fa-056f9885e66b": {
+    "asset": 1759372640300,
+    "meta": 1759372656511,
+    "relativePath": "Game\\Scripts\\Info.ts"
+  },
+  "ec5aadba-fdd8-4b86-957c-de655e566900": {
+    "asset": 1759372616849,
+    "meta": 1759372656526,
+    "relativePath": "Game\\Scripts\\ui\\HbDialog.ts"
+  },
+  "a9427e7e-266b-4cc7-a899-6f5f22c0a4de": {
+    "asset": 1759373999779,
+    "meta": 1759374466426,
+    "relativePath": "Game\\Scripts\\ui\\LuckyDialog.ts"
+  },
+  "1b7cb4fa-e16b-47c6-9a11-7ef955af810d": {
+    "asset": 1759376269943,
+    "meta": 1759376273574,
+    "relativePath": "Game\\Scripts\\ui\\ShopDialog.ts"
+  },
+  "d3b8f328-7560-4f9a-8bea-4ee71ba66e42": {
+    "asset": 1759377089267,
+    "meta": 1759377096122,
+    "relativePath": "Game\\Scripts\\ui\\DailyGetDialog.ts"
+  },
   "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
-    "asset": 1759315493669,
-    "meta": 1759315495995,
+    "asset": 1759377189236,
+    "meta": 1759377191388,
     "relativePath": "Game\\locale.json"
   }
 }

@@ -4,6 +4,7 @@ import Platform from "../../framework/Platform";
 import Device from "../../framework/plugin_boosts/gamesys/Device";
 import { R } from "./hex-lines-game/Res";
 import { Toast } from "../../framework/plugin_boosts/ui/ToastManager";
+import LanguageManager from "../../framework/plugin_boosts/ui/LanguageManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -84,7 +85,8 @@ export default class Main extends cc.Component {
 
 
     click_more() {
-        Toast.make("敬请期待")
+        // Toast.make("敬请期待")
+        Toast.make(LanguageManager.instance.getText("more"))
     }
 
     // update (dt) {}

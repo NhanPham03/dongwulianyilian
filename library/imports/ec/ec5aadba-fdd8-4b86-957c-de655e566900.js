@@ -10,6 +10,7 @@ var Res_1 = require("../hex-lines-game/Res");
 var Info_1 = require("../Info");
 var Device_1 = require("../../../framework/plugin_boosts/gamesys/Device");
 var View_1 = require("../../../framework/plugin_boosts/ui/View");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var HbDialog = /** @class */ (function (_super) {
     __extends(HbDialog, _super);
@@ -29,7 +30,9 @@ var HbDialog = /** @class */ (function (_super) {
     };
     HbDialog.prototype.share_suc = function () {
         var cfg = Res_1.R.skinConfig.json[3];
-        ToastManager_1.Toast.make("恭喜获得皮肤 ：" + cfg.text);
+        // Toast.make("恭喜获得皮肤 ：" + cfg.text) 
+        var text = LanguageManager_1.default.instance.getText("skin_get");
+        ToastManager_1.Toast.make(text + " " + cfg.text);
         Device_1.default.playEffect(Res_1.R.audio_unlock);
         Info_1.UserInfo.unlock(cfg.id);
         Info_1.UserInfo.selectedSkin = cfg.id;

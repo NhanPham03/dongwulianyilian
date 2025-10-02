@@ -7,6 +7,7 @@ import Device from "../../../framework/plugin_boosts/gamesys/Device";
 import { R } from "../hex-lines-game/Res";
 import UIFunctions from "../../../framework/plugin_boosts/ui/UIFunctions";
 import Main from "../Main";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -159,7 +160,8 @@ export default class LuckyDialog extends cc.Component {
         console.log("target wheel:" ,id);
         let angle = this.calculateAngle(id)
         if (!this._canRotate){
-            Toast.make('正在给您挑选奖品...');
+            // Toast.make('正在给您挑选奖品...');
+            Toast.make(LanguageManager.instance.getText("luck_loading"));
             return
         }
         this._canRotate = false
@@ -184,7 +186,9 @@ export default class LuckyDialog extends cc.Component {
         }
         else{
             //神秘
-            Toast.make("恭喜你抽中了 " + cfg.gold_reward);
+            // Toast.make("恭喜你抽中了 " + cfg.gold_reward);
+            const text = LanguageManager.instance.getText("gold_get");
+            Toast.make(`${text} ${cfg.gold_reward}`);
             UserInfo.unlock(g.randomInt(0,6));
             // Device.playEffect(R.audio_unlock);
         }
@@ -197,7 +201,8 @@ export default class LuckyDialog extends cc.Component {
     click_close()
     {
         if (!this._canRotate){
-            Toast.make('正在给您挑选奖品...');
+            // Toast.make('正在给您挑选奖品...');
+            Toast.make(LanguageManager.instance.getText("luck_loading"));
             return 
         }
         this.getComponent(View).hide()

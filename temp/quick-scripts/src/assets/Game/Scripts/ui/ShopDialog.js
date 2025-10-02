@@ -12,6 +12,7 @@ var ToastManager_1 = require("../../../framework/plugin_boosts/ui/ToastManager")
 var UIFunctions_1 = require("../../../framework/plugin_boosts/ui/UIFunctions");
 var Device_1 = require("../../../framework/plugin_boosts/gamesys/Device");
 var Main_1 = require("../Main");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var ShopDialog = /** @class */ (function (_super) {
     __extends(ShopDialog, _super);
@@ -48,11 +49,13 @@ var ShopDialog = /** @class */ (function (_super) {
     };
     ShopDialog.prototype.refreshBtnStatus = function () {
         if (g.isNextDay(Info_1.UserInfo.shopFreeDiamondTime)) {
-            this.freeDiamondLabel.string = "免费得50";
+            // this.freeDiamondLabel.string = "免费得50"
+            this.freeDiamondLabel.string = LanguageManager_1.default.instance.getText("free_diamonds") + "50";
             UIFunctions_1.default.setButtonEnabled(this.freeDiamondBtn, true);
         }
         else {
-            this.freeDiamondLabel.string = "已领取";
+            // this.freeDiamondLabel.string = "已领取"
+            this.freeDiamondLabel.string = LanguageManager_1.default.instance.getText("free_diamonds_received");
             UIFunctions_1.default.setButtonEnabled(this.freeDiamondBtn, false);
         }
     };
@@ -86,20 +89,25 @@ var ShopDialog = /** @class */ (function (_super) {
         if (Info_1.UserInfo.isUnlock(data.id)) {
             //select 
             this.selectBg(data);
-            ToastManager_1.Toast.make("已选择 " + data.text);
+            // Toast.make("已选择 " + data.text)
+            var text = LanguageManager_1.default.instance.getText("shop_select");
+            ToastManager_1.Toast.make(text + " " + data.text);
             return;
         }
         if (Info_1.UserInfo.diamond >= data.cost) {
             Info_1.UserInfo.diamond -= data.cost;
             Info_1.UserInfo.unlock(data.id);
             this.selectBg(data);
-            ToastManager_1.Toast.make(cc.js.formatStr("%s已解锁", data.text));
+            // Toast.make(cc.js.formatStr("%s已解锁", data.text))
+            var text = LanguageManager_1.default.instance.getText("skin_unlocked");
+            ToastManager_1.Toast.make("" + data.text + text);
             Device_1.default.playEffect(Res_1.R.audio_unlock);
             if (Main_1.default.instance)
                 Main_1.default.instance.refreshRedpoints();
         }
         else {
-            ToastManager_1.Toast.make("钻石不足");
+            // Toast.make("钻石不足")
+            ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("shop_insufficient"));
             Device_1.default.playEffect(Res_1.R.audio_invalid);
         }
     };

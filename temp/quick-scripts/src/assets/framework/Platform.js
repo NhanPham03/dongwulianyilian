@@ -9,6 +9,7 @@ var BKTool_1 = require("./qqsdk/BKTool");
 var SpriteFrameCache_1 = require("./plugin_boosts/misc/SpriteFrameCache");
 var Signal_1 = require("./plugin_boosts/misc/Signal");
 var EventManager_1 = require("./plugin_boosts/utils/EventManager");
+var LanguageManager_1 = require("./plugin_boosts/ui/LanguageManager");
 var WxCommands;
 (function (WxCommands) {
     WxCommands[WxCommands["Hide"] = 99] = "Hide";
@@ -163,7 +164,8 @@ var Platform = /** @class */ (function () {
                 }
                 else {
                     //用户及时返回分享失败 
-                    ToastManager_1.Toast.make("分享失败,请尝试换其它群分享");
+                    // Toast.make("分享失败,请尝试换其它群分享")
+                    ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("share_fail"));
                 }
             });
         }
@@ -192,7 +194,8 @@ var Platform = /** @class */ (function () {
                 else if (code == "close") {
                     Platform.bannnerRefreshEnabled = true;
                     if (!isEnded)
-                        ToastManager_1.Toast.make("必须看完视频,才能获取奖励");
+                        // Toast.make("必须看完视频,才能获取奖励")
+                        ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("watch_video"));
                     else
                         callback && callback.call(target);
                 }
@@ -211,7 +214,8 @@ var Platform = /** @class */ (function () {
                 }
                 else if (v == "close") {
                     if (!isFinish_1)
-                        ToastManager_1.Toast.make("必须看完视频,才能获取奖励");
+                        // Toast.make("必须看完视频,才能获取奖励")
+                        ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("watch_video"));
                     else
                         callback && callback.call(target);
                 }

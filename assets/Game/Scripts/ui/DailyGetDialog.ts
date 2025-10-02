@@ -2,6 +2,7 @@ import { UserInfo, ChoiceType } from "../Info";
 import View from "../../../framework/plugin_boosts/ui/View";
 import { Toast } from "../../../framework/plugin_boosts/ui/ToastManager";
 import Platform from "../../../framework/Platform";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -18,7 +19,9 @@ export default class DailyGetDialog extends cc.Component {
     onShown()
     {
         this.diamond = g.randomInt(20,50);
-        this.rewardLabel.string = cc.js.formatStr("钻石 x " + this.diamond)
+        // this.rewardLabel.string = cc.js.formatStr("钻石 x " + this.diamond)
+        const text = LanguageManager.instance.getText("diamonds");
+        this.rewardLabel.string = `${text} x ${this.diamond}`;
     }
 
     click_get()

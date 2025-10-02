@@ -7,6 +7,7 @@ import { Toast } from "../../../framework/plugin_boosts/ui/ToastManager";
 import UIFunctions from "../../../framework/plugin_boosts/ui/UIFunctions";
 import Device from "../../../framework/plugin_boosts/gamesys/Device";
 import Main from "../Main";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -52,10 +53,12 @@ export default class ShopDialog extends cc.Component {
 
     refreshBtnStatus() {
         if (g.isNextDay(UserInfo.shopFreeDiamondTime)) {
-            this.freeDiamondLabel.string = "免费得50"
+            // this.freeDiamondLabel.string = "免费得50"
+            this.freeDiamondLabel.string = LanguageManager.instance.getText("free_diamonds") + "50";
             UIFunctions.setButtonEnabled(this.freeDiamondBtn, true)
         } else {
-            this.freeDiamondLabel.string = "已领取"
+            // this.freeDiamondLabel.string = "已领取"
+            this.freeDiamondLabel.string = LanguageManager.instance.getText("free_diamonds_received");
             UIFunctions.setButtonEnabled(this.freeDiamondBtn, false)
         }
     }
@@ -93,19 +96,24 @@ export default class ShopDialog extends cc.Component {
         if (UserInfo.isUnlock(data.id)) {
             //select 
             this.selectBg(data);
-            Toast.make("已选择 " + data.text)
+            // Toast.make("已选择 " + data.text)
+            const text = LanguageManager.instance.getText("shop_select");
+            Toast.make(`${text} ${data.text}`)
             return;
         }
         if (UserInfo.diamond >= data.cost) {
             UserInfo.diamond -= data.cost;
             UserInfo.unlock(data.id);
             this.selectBg(data)
-            Toast.make(cc.js.formatStr("%s已解锁", data.text))
+            // Toast.make(cc.js.formatStr("%s已解锁", data.text))
+            const text = LanguageManager.instance.getText("skin_unlocked");
+            Toast.make(`${data.text}${text}`)
             Device.playEffect(R.audio_unlock)
             if (Main.instance)
                 Main.instance.refreshRedpoints()
         } else {
-            Toast.make("钻石不足")
+            // Toast.make("钻石不足")
+            Toast.make(LanguageManager.instance.getText("shop_insufficient"));
             Device.playEffect(R.audio_invalid)
         }
     }

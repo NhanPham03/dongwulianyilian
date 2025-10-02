@@ -12,6 +12,7 @@ var Device_1 = require("../../../framework/plugin_boosts/gamesys/Device");
 var Res_1 = require("../hex-lines-game/Res");
 var UIFunctions_1 = require("../../../framework/plugin_boosts/ui/UIFunctions");
 var Main_1 = require("../Main");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var LuckyDialog = /** @class */ (function (_super) {
     __extends(LuckyDialog, _super);
@@ -123,7 +124,8 @@ var LuckyDialog = /** @class */ (function (_super) {
         console.log("target wheel:", id);
         var angle = this.calculateAngle(id);
         if (!this._canRotate) {
-            ToastManager_1.Toast.make('正在给您挑选奖品...');
+            // Toast.make('正在给您挑选奖品...');
+            ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("luck_loading"));
             return;
         }
         this._canRotate = false;
@@ -144,7 +146,9 @@ var LuckyDialog = /** @class */ (function (_super) {
         }
         else {
             //神秘
-            ToastManager_1.Toast.make("恭喜你抽中了 " + cfg.gold_reward);
+            // Toast.make("恭喜你抽中了 " + cfg.gold_reward);
+            var text = LanguageManager_1.default.instance.getText("gold_get");
+            ToastManager_1.Toast.make(text + " " + cfg.gold_reward);
             Info_1.UserInfo.unlock(g.randomInt(0, 6));
             // Device.playEffect(R.audio_unlock);
         }
@@ -153,7 +157,8 @@ var LuckyDialog = /** @class */ (function (_super) {
     };
     LuckyDialog.prototype.click_close = function () {
         if (!this._canRotate) {
-            ToastManager_1.Toast.make('正在给您挑选奖品...');
+            // Toast.make('正在给您挑选奖品...');
+            ToastManager_1.Toast.make(LanguageManager_1.default.instance.getText("luck_loading"));
             return;
         }
         this.getComponent(View_1.default).hide();

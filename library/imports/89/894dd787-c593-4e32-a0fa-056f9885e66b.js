@@ -10,6 +10,7 @@ var ToastManager_1 = require("../../framework/plugin_boosts/ui/ToastManager");
 var Device_1 = require("../../framework/plugin_boosts/gamesys/Device");
 var Platform_1 = require("../../framework/Platform");
 var MoreGameManager_1 = require("../../framework/wxsdk/MoreGameManager");
+var LanguageManager_1 = require("../../framework/plugin_boosts/ui/LanguageManager");
 var ChoiceType;
 (function (ChoiceType) {
     ChoiceType[ChoiceType["DailyGet"] = 0] = "DailyGet";
@@ -73,12 +74,16 @@ var UserInfoClass = /** @class */ (function (_super) {
         else
             this.diamond += parseInt(d);
         if (b) {
-            ToastManager_1.Toast.make("获得钻石 x" + d);
+            var text = LanguageManager_1.default.instance.getText("get_diamonds");
+            // Toast.make("获得钻石 x" + d)
+            ToastManager_1.Toast.make(text + " x + " + d);
             Device_1.default.playEffect(Res_1.R.audio_get_diamond);
         }
         if (!this.firstTimeReach) {
             if (this.diamond >= 500) {
-                ToastManager_1.Toast.make("哇可以买皮肤了，快去皮肤商店看看吧!", 2);
+                // Toast.make("哇可以买皮肤了，快去皮肤商店看看吧!",2)
+                var text = LanguageManager_1.default.instance.getText("check_store");
+                ToastManager_1.Toast.make(text, 2);
                 this.firstTimeReach = true;
                 exports.UserInfo.save();
             }
