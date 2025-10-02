@@ -97,11 +97,13 @@ var LuckyDialog = /** @class */ (function (_super) {
     };
     LuckyDialog.prototype.onShown = function () {
         if (Info_1.UserInfo.luckyVideoWatchCount >= LuckyDialog_1.MaxVideoCount) {
-            this.drawLabel.string = "已用完";
+            // this.drawLabel.string = "已用完"
+            this.drawLabel.string = LanguageManager_1.default.instance.getText("no_draw");
             UIFunctions_1.default.setButtonEnabled(this.btn_videodraw, false);
         }
         else {
-            this.drawLabel.string = "看视频抽奖";
+            // this.drawLabel.string = "看视频抽奖"
+            this.drawLabel.string = LanguageManager_1.default.instance.getText("watch_video");
             UIFunctions_1.default.setButtonEnabled(this.btn_videodraw, true);
         }
         if (g.isGreaterDate(new Date(), new Date(Info_1.UserInfo.freedrawTime))) {

@@ -130,10 +130,12 @@ export default class LuckyDialog extends cc.Component {
     {
         if (UserInfo.luckyVideoWatchCount >=  LuckyDialog.MaxVideoCount)
         {
-            this.drawLabel.string = "已用完"
+            // this.drawLabel.string = "已用完"
+            this.drawLabel.string = LanguageManager.instance.getText("no_draw");
             UIFunctions.setButtonEnabled(this.btn_videodraw,false)
         }else{
-            this.drawLabel.string = "看视频抽奖"
+            // this.drawLabel.string = "看视频抽奖"
+            this.drawLabel.string = LanguageManager.instance.getText("watch_video");
             UIFunctions.setButtonEnabled(this.btn_videodraw,true)
         }
         if (g.isGreaterDate(new Date(),  new Date(UserInfo.freedrawTime)) )

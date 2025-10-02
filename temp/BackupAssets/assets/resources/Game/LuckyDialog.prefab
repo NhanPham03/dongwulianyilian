@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "LuckyDialog",
+    "_name": "",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -2418,7 +2418,7 @@
       "__id__": 60
     },
     "_enabled": true,
-    "textKey": "free_draw",
+    "textKey": "free_roll",
     "_id": ""
   },
   {

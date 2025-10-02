@@ -1,6 +1,7 @@
 import { UserInfo, ChoiceType } from "../Info";
 import View from "../../../framework/plugin_boosts/ui/View";
 import Platform from "../../../framework/Platform";
+import LanguageManager from "../../../framework/plugin_boosts/ui/LanguageManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -33,14 +34,22 @@ export default class LevelupDialog extends cc.Component {
         let diamond = Math.floor(Math.max(30 * p,10))
         this.baseDiamond = diamond;
         this.diamondLabel.string = diamond.toString();
-        this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - ",level)
+
+        if (LanguageManager.instance.region === "zh-CN") {
+            this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - ",level)
+        }
+        else {
+            const text = LanguageManager.instance.getText("level");
+            this.levelLabel.string = `- ${text} ${level}-`;
+        }
 
         if(Math.random() > 0.7)
         {
             this.mult = g.randomInt(3,6)
             this.btnLabel.string = this.mult +"倍领取"
         }else{
-            this.btnLabel.string = "双倍领取"
+            // this.btnLabel.string = "双倍领取"
+            this.btnLabel.string = LanguageManager.instance.getText("double_rewards")
             this.mult = 2
         }
         this.tipLabel.string ="恭喜获得" + this.btnLabel.string +"奖励机会"

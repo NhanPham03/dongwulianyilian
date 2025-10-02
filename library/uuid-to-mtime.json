@@ -1399,11 +1399,6 @@
     "meta": 1759251432473,
     "relativePath": "Game\\Scripts\\ui\\LevelDialog.ts"
   },
-  "192e19c7-737f-41e1-bd6f-a3f9a34c51b6": {
-    "asset": 1629800916000,
-    "meta": 1759251432528,
-    "relativePath": "Game\\Scripts\\ui\\LevelupDialog.ts"
-  },
   "83fb9a2c-5285-44a6-97e4-f01ea6909615": {
     "asset": 1629800916000,
     "meta": 1759251432597,
@@ -1510,8 +1505,8 @@
     "relativePath": "resources\\Game\\LanguageDialog.prefab"
   },
   "f2e4f3db-bcdb-4bd8-809d-a7014e024a22": {
-    "asset": 1758618983000,
-    "meta": 1759251430256,
+    "asset": 1759393818781,
+    "meta": 1759393818822,
     "relativePath": "resources\\Game\\LevelupDialog.prefab"
   },
   "e7a50818-128e-4414-96d9-70a5b480a9d0": {
@@ -1520,8 +1515,8 @@
     "relativePath": "resources\\Game\\MyToast.prefab"
   },
   "bfb3a4f9-085d-4d40-87a6-61247fb3ccad": {
-    "asset": 1758618983000,
-    "meta": 1759251430260,
+    "asset": 1759393438222,
+    "meta": 1759393438245,
     "relativePath": "resources\\Game\\LuckyDialog.prefab"
   },
   "da18cb6b-06ad-4863-ab81-b6139d372b4b": {
@@ -2164,11 +2159,6 @@
     "meta": 1759372656526,
     "relativePath": "Game\\Scripts\\ui\\HbDialog.ts"
   },
-  "a9427e7e-266b-4cc7-a899-6f5f22c0a4de": {
-    "asset": 1759373999779,
-    "meta": 1759374466426,
-    "relativePath": "Game\\Scripts\\ui\\LuckyDialog.ts"
-  },
   "d3b8f328-7560-4f9a-8bea-4ee71ba66e42": {
     "asset": 1759377089267,
     "meta": 1759377096122,
@@ -2199,11 +2189,6 @@
     "meta": 1759388080811,
     "relativePath": "Game\\Scripts\\ui\\RankingTemplate.ts"
   },
-  "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
-    "asset": 1759388867059,
-    "meta": 1759388869855,
-    "relativePath": "Game\\locale.json"
-  },
   "1b7cb4fa-e16b-47c6-9a11-7ef955af810d": {
     "asset": 1759390431928,
     "meta": 1759390505285,
@@ -2213,5 +2198,20 @@
     "asset": 1759391676860,
     "meta": 1759391690180,
     "relativePath": "framework\\wxsdk\\WxRankDialog.ts"
+  },
+  "a9427e7e-266b-4cc7-a899-6f5f22c0a4de": {
+    "asset": 1759393361449,
+    "meta": 1759393411544,
+    "relativePath": "Game\\Scripts\\ui\\LuckyDialog.ts"
+  },
+  "192e19c7-737f-41e1-bd6f-a3f9a34c51b6": {
+    "asset": 1759393649324,
+    "meta": 1759393663440,
+    "relativePath": "Game\\Scripts\\ui\\LevelupDialog.ts"
+  },
+  "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
+    "asset": 1759393806516,
+    "meta": 1759393810479,
+    "relativePath": "Game\\locale.json"
   }
 }

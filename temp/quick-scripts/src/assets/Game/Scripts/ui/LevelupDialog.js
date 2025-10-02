@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Info_1 = require("../Info");
 var View_1 = require("../../../framework/plugin_boosts/ui/View");
 var Platform_1 = require("../../../framework/Platform");
+var LanguageManager_1 = require("../../../framework/plugin_boosts/ui/LanguageManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var LevelupDialog = /** @class */ (function (_super) {
     __extends(LevelupDialog, _super);
@@ -27,7 +28,13 @@ var LevelupDialog = /** @class */ (function (_super) {
         var diamond = Math.floor(Math.max(30 * p, 10));
         this.baseDiamond = diamond;
         this.diamondLabel.string = diamond.toString();
-        this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - ", level);
+        if (LanguageManager_1.default.instance.region === "zh-CN") {
+            this.levelLabel.string = cc.js.formatStr("- 第 %s 关 - ", level);
+        }
+        else {
+            var text = LanguageManager_1.default.instance.getText("level");
+            this.levelLabel.string = "- " + text + " " + level + "-";
+        }
         if (Math.random() > 0.7) {
             this.mult = g.randomInt(3, 6);
             this.btnLabel.string = this.mult + "倍领取";
