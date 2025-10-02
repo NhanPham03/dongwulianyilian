@@ -30,6 +30,7 @@ require('./assets/Game/Scripts/ui/LevelupDialog');
 require('./assets/Game/Scripts/ui/LocalizedLabel');
 require('./assets/Game/Scripts/ui/LuckyDialog');
 require('./assets/Game/Scripts/ui/PauseDialog');
+require('./assets/Game/Scripts/ui/RankingTemplate');
 require('./assets/Game/Scripts/ui/ShopDialog');
 require('./assets/Game/Scripts/ui/ShopItemTemplate');
 require('./assets/Game/Scripts/ui/TimeUpDialog');

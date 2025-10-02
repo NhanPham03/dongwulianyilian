@@ -1144,11 +1144,6 @@
     "meta": 1759251429204,
     "relativePath": "framework\\wxsdk\\sdk.ts"
   },
-  "80fd3367-e1d1-45e3-9432-94c38db37ae8": {
-    "asset": 1629800916000,
-    "meta": 1759251429230,
-    "relativePath": "framework\\wxsdk\\WxRankDialog.ts"
-  },
   "b081b4f8-d34d-4c06-80f9-fa5b0f8e3c39": {
     "asset": 1759294102790,
     "meta": 1759312506120,
@@ -1695,8 +1690,8 @@
     "relativePath": "resources\\Game\\WinDialog.prefab"
   },
   "d3348e48-c708-4d6b-9605-7b6fc6dc1e3e": {
-    "asset": 1759384361605,
-    "meta": 1759384361635,
+    "asset": 1759391784708,
+    "meta": 1759391784743,
     "relativePath": "resources\\wechat\\WxRankDialog.prefab"
   },
   "6d2b8d60-affd-48a8-a7b9-76be52ebcff0": {
@@ -2174,11 +2169,6 @@
     "meta": 1759374466426,
     "relativePath": "Game\\Scripts\\ui\\LuckyDialog.ts"
   },
-  "1b7cb4fa-e16b-47c6-9a11-7ef955af810d": {
-    "asset": 1759376269943,
-    "meta": 1759376273574,
-    "relativePath": "Game\\Scripts\\ui\\ShopDialog.ts"
-  },
   "d3b8f328-7560-4f9a-8bea-4ee71ba66e42": {
     "asset": 1759377089267,
     "meta": 1759377096122,
@@ -2199,14 +2189,29 @@
     "meta": 1759381575055,
     "relativePath": "Game\\Scripts\\ui\\WinDialog.ts"
   },
-  "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
-    "asset": 1759384239125,
-    "meta": 1759384241516,
-    "relativePath": "Game\\locale.json"
-  },
   "4c9b5484-5e58-4302-a5c6-6add0d716988": {
     "asset": 1759384490389,
     "meta": 1759384509172,
     "relativePath": "Game\\Scripts\\hex-lines-game\\Game.ts"
+  },
+  "249bda7b-120d-43e4-9dd6-33f292848b29": {
+    "asset": 1759388079366,
+    "meta": 1759388080811,
+    "relativePath": "Game\\Scripts\\ui\\RankingTemplate.ts"
+  },
+  "77be6d7c-1aff-4b7e-beef-0a508fca7a70": {
+    "asset": 1759388867059,
+    "meta": 1759388869855,
+    "relativePath": "Game\\locale.json"
+  },
+  "1b7cb4fa-e16b-47c6-9a11-7ef955af810d": {
+    "asset": 1759390431928,
+    "meta": 1759390505285,
+    "relativePath": "Game\\Scripts\\ui\\ShopDialog.ts"
+  },
+  "80fd3367-e1d1-45e3-9432-94c38db37ae8": {
+    "asset": 1759391676860,
+    "meta": 1759391690180,
+    "relativePath": "framework\\wxsdk\\WxRankDialog.ts"
   }
 }
